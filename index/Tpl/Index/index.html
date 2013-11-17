@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>8不够？多1点？?</title>
+<link href="__PUBLIC__/Index/css/style.css" rel="stylesheet" type="text/css" />
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/Index/javascript/jquery.js"></script>
+<script type="text/javascript">
+//search focusblur
+	   jQuery.focusblur = function(focusid) {
+	   var focusblurid = $(focusid);
+	   var defval = focusblurid.val();
+			   focusblurid.focus(function(){
+			   var thisval = $(this).val();
+			   $(this).removeClass("input_selected1");
+			   $(this).addClass("input_selected2");
+			   if(thisval==defval){
+			   $(this).val("");
+		   }
+	   });
+	   focusblurid.blur(function(){
+	   var thisval = $(this).val();
+	   if(thisval==""){
+			   $(this).val(defval);
+			   $(this).removeClass("input_selected2");
+			   $(this).addClass("input_selected1");
+		   }
+		 });
+		   
+	   };
+	   
+$(function() {
+		   
+	/*下面是调用search文本框方法*/
+	$.focusblur("#searchkey");
+	
+	/*向上弹出，向下收回*/
+	$("#wbShow").click(function() 
+    {      
+		if( $("#wb").hasClass("wbhide") ) 
+		{
+			$("#wb").removeClass("wbhide"); 
+			$("#wb").animate({height:'280px'},[1000]);
+		}
+		else
+		{
+			$("#wb").animate({height:'0px'},[1000]);
+			$("#wb").addClass("wbhide"); 
+		}
+          
+    }); 
+	
+	/*8按钮聚光灯效果*/
+	$(".floorMain").find("a").each(function() {
+		$(this).hover(function() {
+			$(this).siblings().find(".mask").stop();
+			$(this).siblings().find(".mask").fadeTo("fast",0.3);
+		},
+		function() {
+			$(this).siblings().find(".mask").stop();
+			$(this).siblings().find(".mask").fadeTo("fast",0);
+		});
+	});
+})
+</script>
+</head>
+<body>
+<div class="contain">
+	<div class="header">
+    <a href="#"><img src="__PUBLIC__/Index/images/logo.jpg" width="122" height="26" border="0" /></a>
+    </div>
+    <div class="banner">
+    	<div class="bannerleft"></div>
+        <div class="bannerright"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="huatibox">
+    	<div class="ht_top"></div>
+        <div class="ht_mid">
+        	<div class="ht_m1"></div>
+            <div class="ht_m2">
+            	<div class="toutiao">
+                	<dl>
+                    	<dt>8话题之各种新奇节日的风生水起</dt>
+                        <dd class="d_left">
+                        	<a href="#"><img src="__UPLOAD__/img_w1.jpg" /></a>
+                            <div><span class="fr">苏芩</span><span class="fl">主讲人</span></div>
+                        </dd>
+                        <dd class="d_right">
+                        说起过节，大家的兴奋点应该只会放在放假上了，过节几乎已经失去了节日本身的意义，不过在网络上，大家却创造了许多新的节日，并且过的热热闹闹，风生水起，像是11.11光棍节，10.10萌节，8.18八卦节，5.20我爱你情人节...也许比起传统节日，这些搞怪的节日更能满足现代人的心理，在一个特定的日子，抒发现代人特有的感慨。
+                        </dd>
+                    </dl>
+                </div>
+                <div class="clear"></div>
+                <div class="discuss">
+                	<dl>
+                    	<dt>
+                        	1点点评
+                        </dt>
+                        <dd>
+                        	<a href="#"><img src="__UPLOAD__/img_w2.jpg" /></a>
+                            <div>
+                            <h2>张亮：</h2>
+                            <p>点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评</p>
+                            </div>
+                        </dd>
+                        <dd>
+                        	<a href="#"><img src="__UPLOAD__/img_w3.jpg" /></a>
+                            <div>
+                            <h2>暖小团：</h2>
+                            <p>点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评</p>
+                            </div>
+                        </dd>
+                        <dd>
+                        	<a href="#"><img src="__UPLOAD__/img_w4.jpg" /></a>
+                            <div>
+                            <h2>Mike_D：</h2>
+                            <p>点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评</p>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="clear"></div>
+                <div class="btn_ht">
+                	<ul>
+                    	<li class="jv"><a href="#">#话题1#</a></li>
+                        <li class="lv"><a href="#">#话题2#</a></li>
+                        <li class="zi"><a href="#">#话题3#</a></li>
+                        <li class="ye"><a href="#">#话题4#</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ht_m3">
+            	<div class="search">
+                <form action="" method="get">
+                  <input class="input_selected1" name="" type="text" value="看看大家怎么说" id="searchkey"><input class="button" name="" type="button" value="">
+                </form>
+                </div><!--search end-->
+                <div class="biying">
+                	<a href="javascript:void(0);" id="wbShow">通过必应搜索</a>
+                </div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" titlebar="n" width="235" listid="485751195" uid="1052981072" height="290" ></wb:livestream></div>
+            </div>
+            <div class="ht_m4"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="ht_bot"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="ninebox">
+           <div class="floorMain">
+                <a href="#" class="item1"><img src="__PUBLIC__/Index/images/n1.jpg"><div class="mask"></div></a>
+                <a href="#" class="item2"><img src="__PUBLIC__/Index/images/n2.jpg"><div class="mask"></div></a>
+                <a href="#" class="item3"><img src="__PUBLIC__/Index/images/n3.jpg"><div class="mask"></div></a>
+                <a href="#" class="item4"><img src="__PUBLIC__/Index/images/n4.jpg"><div class="mask"></div></a>
+                <a href="#" class="item5"><img src="__PUBLIC__/Index/images/n5.jpg"><div class="mask"></div></a>
+                <a href="#" class="item6"><img src="__PUBLIC__/Index/images/n6.jpg"><div class="mask"></div></a>
+                <a href="#" class="item7"><img src="__PUBLIC__/Index/images/n7.jpg"><div class="mask"></div></a>
+                <a href="#" class="item8"><img src="__PUBLIC__/Index/images/n8.jpg"><div class="mask"></div></a>
+          </div>
+    </div>
+</div>
+</body>
+</html>
