@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>八windows多一点</title>
+<link href="__PUBLIC__/part2/css/style.css" rel="stylesheet" type="text/css" />
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/part2/javascript/jquery.js"></script>
+<script type="text/javascript">
+//search focusblur
+	   jQuery.focusblur = function(focusid) {
+	   var focusblurid = $(focusid);
+	   var defval = focusblurid.val();
+			   focusblurid.focus(function(){
+			   var thisval = $(this).val();
+			   $(this).removeClass("input_selected1");
+			   $(this).addClass("input_selected2");
+			   if(thisval==defval){
+			   $(this).val("");
+		   }
+	   });
+	   focusblurid.blur(function(){
+	   var thisval = $(this).val();
+	   if(thisval==""){
+			   $(this).val(defval);
+			   $(this).removeClass("input_selected2");
+			   $(this).addClass("input_selected1");
+		   }
+		 });
+		   
+	   };
+	   
+$(function() {
+		   
+	/*下面是调用search文本框方法*/
+	$.focusblur("#searchkey");
+	$.focusblur("#fabukey");
+	
+	/*向上弹出，向下收回*/
+	$("#wbShow").click(function() 
+    {      
+		if( $("#wb").hasClass("wbhide") ) 
+		{
+			$("#wb").removeClass("wbhide"); 
+			$("#wb").animate({height:'280px'},[1000]);
+		}
+		else
+		{
+			$("#wb").animate({height:'0px'},[1000]);
+			$("#wb").addClass("wbhide"); 
+		}
+          
+    }); 
+	
+	/*8按钮聚光灯效果*/
+	$(".floorMain").find("a").each(function() {
+		$(this).hover(function() {
+			$(this).siblings().find(".mask").stop();
+			$(this).siblings().find(".mask").fadeTo("fast",0.3);
+		},
+		function() {
+			$(this).siblings().find(".mask").stop();
+			$(this).siblings().find(".mask").fadeTo("fast",0);
+		});
+	});
+})
+</script>
+</head>
+<body>
+<div class="contain">
+	<div class="header">
+    <a href="#"><img src="__PUBLIC__/part2/images/logo.jpg" width="122" height="26" border="0" /></a>
+    </div>
+    <div class="banner">
+    	<div class="bannerleft"></div>
+        <div class="bannerright"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="huatibox">
+    	<div class="ht_top"></div>
+        <div class="ht_mid">
+        	<div class="ht_m1"></div>
+            <div class="ht_m2eight">
+            	<ul class="tab">
+                	<li class="choice"><a href="#">八Windows多一点</a></li>
+                    <li><a href="__URL__/part3">名人8话题回顾</a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="con_eight">
+                	<p>用过Windows系统吗？知道Windows8全新的metro风格吗？</p>
+                    <p>知道升级到Windows8.1了吗？</p>
+                    <p>Windows8.1将带给你多一点体验，多一点惊喜！</p>
+                    <p>告诉我们你对Windows8.1的好奇，就有可能获得名人的专属点评，</p>
+                    <p>更有精致礼品送给你！</p>
+                    <p>二等奖：随机抽取150名参与话题征集的网友，送上微软限量版精美贴纸；</p>
+                    <p>一等奖：最终被点赞最多的4个话题提供者，将获得微软限量版精致鼠标。</p>
+                    <h2>为感兴趣的话题点赞，或者说出你想8的那个1点吧</h2>
+                    <div class="fabu">
+                    <form action="" method="get">
+                      <input class="input_selected1 w300" name="" type="text" value="#8不够&nbsp;多1点#" id="fabukey"><input name="" type="button" value="" class="btn_fabu"/>
+                    </form>
+                    </div><!--fabu end-->
+                    <div class="squbox">
+                    	<ul class="squ squ1 mr2">
+                        	<li class="li3 color1 mb2"><a href="#" class="btn_z"></a></li>
+                            <li class="li4 color2"><a href="#" class="btn_z"></a></li>
+                        </ul>
+                        <ul class="squ squ1 mr2">
+                        	<li class="li3 color3 mb2"><a href="#" class="btn_z"></a></li>
+                            <li class="li1 color4 mb2 mr2"><a href="#" class="btn_z"></a></li>
+                            <li class="li1 color5 mb2"><a href="#" class="btn_z"></a></li>
+                            <li class="li3 color6"><a href="#" class="btn_z"></a></li>
+                        </ul>
+                        <ul class="squ squ2 mr2">
+                        	<li class="li2 color7 mb2"><a href="#" class="btn_z"></a></li>
+                            <li class="li1 color8"><a href="#" class="btn_z"></a></li>
+                        </ul>
+                        <ul class="squ squ1 mr2">
+                        	<li class="li4 color9 mb2"><a href="#" class="btn_z"></a></li>
+                            <li class="li3 color10"><a href="#" class="btn_z"></a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+               	</div>
+                <div class="clear"></div>
+            </div>
+            <div class="ht_m3">
+            	<div class="search">
+                <form action="" method="get">
+                  <input class="input_selected1" name="" type="text" value="看看大家怎么说" id="searchkey"><input class="button" name="" type="button" value="">
+                </form>
+                </div><!--search end-->
+                <div class="biying">
+                	<a href="javascript:void(0);" id="wbShow">通过必应搜索</a>
+                </div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" titlebar="n" width="235" listid="485751195" uid="1052981072" height="290" ></wb:livestream></div>
+            </div>
+            <div class="ht_m4"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="ht_bot"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="ninebox">
+           <div class="floorMain">
+                <a href="#" class="item1"><img src="__PUBLIC__/part2/images/n1.jpg"><div class="mask"></div></a>
+                <a href="#" class="item2"><img src="__PUBLIC__/part2/images/n2.jpg"><div class="mask"></div></a>
+                <a href="#" class="item3"><img src="__PUBLIC__/part2/images/n3.jpg"><div class="mask"></div></a>
+                <a href="#" class="item4"><img src="__PUBLIC__/part2/images/n4.jpg"><div class="mask"></div></a>
+                <a href="#" class="item5"><img src="__PUBLIC__/part2/images/n5.jpg"><div class="mask"></div></a>
+                <a href="#" class="item6"><img src="__PUBLIC__/part2/images/n6.jpg"><div class="mask"></div></a>
+                <a href="#" class="item7"><img src="__PUBLIC__/part2/images/n7.jpg"><div class="mask"></div></a>
+                <a href="#" class="item8"><img src="__PUBLIC__/part2/images/n8.jpg"><div class="mask"></div></a>
+          </div>
+    </div>
+</div>
+</body>
+</html>

@@ -370,6 +370,15 @@ abstract class Action {
             $data['info']   =   $message;
             $data['status'] =   $status;
             $data['url']    =   $jumpUrl;
+            $data['url']    =   $jumpUrl;
+            $data['statusCode']  =  $status;	// jui
+            $data['navTabId']  =  $_REQUEST['navTabId'];	// jui
+            $data['rel']  =  $_REQUEST['rel'];	// jui
+            $data['callbackType']  =  $_REQUEST['callbackType'];	// jui
+            $data['forwardUrl']  =  $_REQUEST['forwardUrl'];	// jui
+            $data['confirmMsg']  =  $_REQUEST['confirmMsg'];	// jui
+            $data['message'] =  $message; // jui
+
             $this->ajaxReturn($data);
         }
         if(is_int($ajax)) $this->assign('waitSecond',$ajax);
