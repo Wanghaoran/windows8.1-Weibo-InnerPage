@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/css/style.css" afterPath="$PROJECT_DIR$/Public/Index/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -299,7 +298,11 @@
       <created>1385042118951</created>
       <updated>1385042118951</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新 页面 兼容性3">
+      <created>1385043557187</created>
+      <updated>1385043557187</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -362,7 +365,8 @@
     <MESSAGE value="增加 高度自适应 代码" />
     <MESSAGE value="更新 页面 兼容性" />
     <MESSAGE value="更新 页面 兼容性2" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 页面 兼容性2" />
+    <MESSAGE value="更新 页面 兼容性3" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 页面 兼容性3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
