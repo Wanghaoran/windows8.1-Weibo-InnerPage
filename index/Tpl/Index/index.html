@@ -75,7 +75,7 @@ $(function() {
     	<div class="bannerleft"></div>
         <div class="bannerright"></div>
     </div>
-    <div class="clear"></div>
+    <a name="anchor"></a>
     <div class="huatibox">
     	<div class="ht_top"></div>
         <div class="ht_mid">
@@ -91,9 +91,9 @@ $(function() {
                         <dd class="d_right">
                             <-{$result.content}->
                         </dd>
-                    </dl>
+                    </dl><div class="clear"></div>
                 </div>
-                <div class="clear"></div>
+
                 <div class="discuss">
                 	<dl>
                     	<dt>
@@ -108,13 +108,14 @@ $(function() {
                             </div>
                         </dd>
                         </volist>
+                        <div class="clear"></div>
                     </dl>
                 </div>
-                <div class="clear"></div>
+
                 <div class="btn_ht">
                 	<ul>
                         <volist name="list" id="l">
-                            <li class="<-{$l.color}->"><a href="__ACTION__/tid/<-{$key}->">#<-{$l.title}->#</a></li>
+                            <li class="<-{$l.color}->"><a href="__ACTION__/tid/<-{$key}->#anchor">#<-{$l.title}->#</a></li>
                         </volist>
                     </ul>
                 </div>
@@ -127,20 +128,18 @@ $(function() {
             </div>
             <div class="ht_m4"></div>
         </div>
-        <div class="clear"></div>
         <div class="ht_bot"></div>
     </div>
-    <div class="clear"></div>
     <div class="ninebox">
            <div class="floorMain">
-                <a href="#" class="item1"><img src="__PUBLIC__/Index/images/n1.jpg"><div class="mask"></div></a>
-                <a href="#" class="item2"><img src="__PUBLIC__/Index/images/n2.jpg"><div class="mask"></div></a>
-                <a href="#" class="item3"><img src="__PUBLIC__/Index/images/n3.jpg"><div class="mask"></div></a>
-                <a href="#" class="item4"><img src="__PUBLIC__/Index/images/n4.jpg"><div class="mask"></div></a>
-                <a href="#" class="item5"><img src="__PUBLIC__/Index/images/n5.jpg"><div class="mask"></div></a>
-                <a href="#" class="item6"><img src="__PUBLIC__/Index/images/n6.jpg"><div class="mask"></div></a>
-                <a href="#" class="item7"><img src="__PUBLIC__/Index/images/n7.jpg"><div class="mask"></div></a>
-                <a href="#" class="item8"><img src="__PUBLIC__/Index/images/n8.jpg"><div class="mask"></div></a>
+                <a href="" class="item1"><img src="__PUBLIC__/Index/images/n1.jpg"><div class="mask"></div></a>
+                <a href="" class="item2"><img src="__PUBLIC__/Index/images/n2.jpg"><div class="mask"></div></a>
+                <a href="" class="item3"><img src="__PUBLIC__/Index/images/n3.jpg"><div class="mask"></div></a>
+                <a href="" class="item4"><img src="__PUBLIC__/Index/images/n4.jpg"><div class="mask"></div></a>
+                <a href="" class="item5"><img src="__PUBLIC__/Index/images/n5.jpg"><div class="mask"></div></a>
+                <a href="" class="item6"><img src="__PUBLIC__/Index/images/n6.jpg"><div class="mask"></div></a>
+                <a href="" class="item7"><img src="__PUBLIC__/Index/images/n7.jpg"><div class="mask"></div></a>
+                <a href="" class="item8"><img src="__PUBLIC__/Index/images/n8.jpg"><div class="mask"></div></a>
           </div>
     </div>
 </div>

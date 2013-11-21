@@ -1,7 +1,7 @@
 <?php
 if (!defined('THINK_PATH')) exit();
 return array(
-    'SHOW_PAGE_TRACE' =>true, // 显示页面Trace信息
+    'SHOW_PAGE_TRACE' => false, // 显示页面Trace信息
     'OUTPUT_ENCODE' => true, // 页面压缩输出
 
     'URL_CASE_INSENSITIVE' => true,
