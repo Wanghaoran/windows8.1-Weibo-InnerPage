@@ -1,487 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="tianj">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/107.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/108.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/109.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/110.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/111.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/112.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/113.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/114.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/115.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/116.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/117.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/118.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/119.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/120.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/121.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/122.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/123.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/124.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/125.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/126.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/127.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/128.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/129.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/130.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/131.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/132.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/133.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/134.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/92.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/93.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/94.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/95.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/96.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/97.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/98.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/99.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/default/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/accordion/accordion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/accordion/accordion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/accordion/accordion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/accordion/accordion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/accordion/accordion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/account_info_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/account_info_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/account_info_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/account_info_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/account_info_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/alert/alertpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/alert/alertpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/alert/alertpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/alert/alertpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/alert/alertpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/alert/alertpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/alert/alertpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/alert/alertpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/alert/alertpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/alert/alertpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/image/images/align_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/image/images/align_right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/image/images/align_top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/common/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/default/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/default/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/bannerleft.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/bannerright.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/common/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/btn_fabu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/btn_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/button/button_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/button/button_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/button/button_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/button/button_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/button/button_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/tree/check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/tree/check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/tree/check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/tree/check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/default/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/default/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/dialog/dialogpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/dialog/dialogpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/dialog/dialogpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/dialog/dialogpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/dialog/dialogpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/dialog/dialogpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/dialog/dialogpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/dialog/dialogpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/dialog/dialogpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/dialog/dialogpanel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/qq/editor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/filemanager/images/file-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/filemanager/images/file-64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/common/flash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/filemanager/images/folder-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/filemanager/images/folder-64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/tree/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/tree/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/tree/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/tree/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/filemanager/images/go-up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/grid/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/grid/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/grid/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/grid/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/grid/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/htbg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/htbg21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/htbg22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/htbg23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/htbg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/icon_b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/multiimage/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/button/imgX.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/button/imgX.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/button/imgX.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/form/input_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/form/input_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/form/input_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/form/input_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/form/input_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/form/input_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/form/input_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/form/input_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/form/input_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/form/input_bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/listLine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/listLine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/listLine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/listLine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/common/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/images/login_banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/login_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/login_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/images/login_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/login_content_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/login_content_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/images/login_content_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/login_header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/login_header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/images/login_header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/login_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/login_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/images/login_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/images/login_logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/login_sub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/images/login_sub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/login_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/images/login_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/common/media.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/menu/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/menu/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/menu/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/menu/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/n1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/n2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/n3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/n4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/n5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/n6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/n7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/n8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/images/ninebg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/order_down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/order_down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/order_up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/order_up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/pageHeader_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/pageHeader_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/pageHeader_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/pageHeader_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/pageHeader_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/panel/panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/panel/panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/panel/panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/panel/panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/panel/panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/panel/panel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/panel/panel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/panel/panel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/panel/panel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/panel/panel_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/preview.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/progressBar/progressBar_l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/progressBar/progressBar_l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/progressBar/progressBar_l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/progressBar/progressBar_l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/progressBar/progressBar_m.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/progressBar/progressBar_m.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/progressBar/progressBar_m.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/progressBar/progressBar_m.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/progressBar/progressBar_s.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/progressBar/progressBar_s.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/progressBar/progressBar_s.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/progressBar/progressBar_s.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/image/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/grid/resizeCol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/grid/resizeCol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/grid/resizeCol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/grid/resizeCol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/grid/resizeCol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/common/rm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/search-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/search-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/search-bt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/search-bt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/multiimage/images/select-files-en.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/multiimage/images/select-files-zh_CN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_c_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_c_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_c_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_c_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_c_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_c_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_c_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_c_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_c_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_c_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_c_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_c_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_f_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_f_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_f_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_f_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_f_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_f_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_f_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_f_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_f_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_f_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_f_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_f_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_h_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_h_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_h_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_h_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_h_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_h_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_h_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_h_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/shadow/shadow_h_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/shadow/shadow_h_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/shadow/shadow_h_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/shadow/shadow_h_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/images/static.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/multiimage/images/swfupload.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/grid/tableth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/grid/tableth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/grid/tableth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/grid/tableth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/grid/tableth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/tabs/tabscontrol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/tabs/tabscontrol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/tabs/tabscontrol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/tabs/tabscontrol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/tabs/tabscontrol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/tabs/tabspage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/tabs/tabspage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/tabs/tabspage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/tabs/tabspage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/tabs/tabspage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/tabs/tabspage_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/tabs/tabspage_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/tabs/tabspage_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/tabs/tabspage_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/tabs/tabspage_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/tabs/tabspanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/tabs/tabspanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/tabs/tabspanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/tabs/tabspanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/tabs/tabspanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/layout/taskbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/layout/taskbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/layout/taskbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/layout/taskbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/layout/taskbar_control.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/layout/taskbar_control.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/layout/taskbar_control.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/layout/taskbar_control.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/layout/taskbar_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/layout/taskbar_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/layout/taskbar_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/layout/taskbar_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/themeButton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/layout/toggleSidebar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/layout/toggleSidebar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/layout/toggleSidebar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/layout/toggleSidebar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/layout/toggleSidebar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/images/tree/tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/images/tree/tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/images/tree/tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/images/tree/tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/images/tree/tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/template/html/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/template/html/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/template/html/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Lib/Action/CommonAction.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Lib/Action/IndexAction.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/anchor/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/autoheight/autoheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/baidumap/baidumap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/clearhtml/clearhtml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/code/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Lang/zh-cn/common.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Conf/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/css/core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/default/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/default/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/dwz.ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/dwz.combox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/dwz.database.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/dwz.frag.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/dwz.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/dwz.regional.zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/emoticons/emoticons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/filemanager/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/flash/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/css/ieHack.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/baidumap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Tpl/Index/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/insertfile/insertfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/js/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/jquery.bgiframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/javascript/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/kindeditor-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/lineheight/lineheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/link/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Tpl/Public/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Tpl/Public/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/baidumap/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/media/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Tpl/Public/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/multiimage/multiimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/pagebreak/pagebreak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Tpl/Index/part3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/Tpl/Public/password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/plainpaste/plainpaste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/code/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/code/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/preview/preview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/qq/qq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/quickformat/quickformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/themes/simple/simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/js/speedup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/azure/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/green/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/purple/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/admin/dwz/themes/silver/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/part2/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/table/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/template/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/plugins/wordpaste/wordpaste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/kindeditor/zh_CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Lib/Core/Action.class.php" afterPath="$PROJECT_DIR$/app/Lib/Core/Action.class.php" />
+    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="增加后台页面，增加第二阶段页面">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/bannerleft.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/bannerleft.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/bannerright.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/bannerright.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg1.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg21.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg23.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg23.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg3.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/logo.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/n1.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/n1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/n2.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/n2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/n3.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/n3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/n4.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/n4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/n5.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/n5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/n6.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/n6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/n7.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/n7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/n8.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/n8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/ninebg.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/ninebg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" afterPath="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" afterPath="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/config.public.php" afterPath="$PROJECT_DIR$/Public/config.public.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/index.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/css/style.css" afterPath="$PROJECT_DIR$/Public/Index/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -505,33 +49,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/Tpl/Public/menu.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="8" selection-start="486" selection-end="486" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="493">
+            <state line="124" column="172" selection-start="4406" selection-end="4406" vertical-scroll-proportion="0.5634744" vertical-offset="1855" max-vertical-offset="2601">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicWidget.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="39" selection-start="165" selection-end="176" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1309">
+              <folding>
+                <element signature="e#1534#2922#1" expanded="false" />
+                <element signature="e#2941#4364#1" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="IndexAction.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/Lib/Action/IndexAction.class.php">
+        <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="323">
+            <state line="7" column="39" selection-start="342" selection-end="342" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/Tpl/Index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="276" selection-end="276" vertical-scroll-proportion="23.615385" vertical-offset="682" max-vertical-offset="2346">
-              <folding>
-                <element signature="n#style#0;n#span#1;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#3;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -545,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part3.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="part3.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="46" selection-start="2457" selection-end="2457" vertical-scroll-proportion="0.6553911" vertical-offset="1118" max-vertical-offset="2992">
+            <state line="84" column="46" selection-start="2457" selection-end="2457" vertical-scroll-proportion="-52.307693" vertical-offset="68" max-vertical-offset="2992">
               <folding />
             </state>
           </provider>
@@ -573,12 +116,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index/Tpl/Index/index.html" />
-        <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/admin/Tpl/Public/login.html" />
-        <option value="$PROJECT_DIR$/Public/config.public.php" />
         <option value="$PROJECT_DIR$/admin/Tpl/Index/index.html" />
         <option value="$PROJECT_DIR$/admin/Tpl/Public/main.html" />
         <option value="$PROJECT_DIR$/app/Lib/Core/Action.class.php" />
@@ -587,6 +127,11 @@
         <option value="$PROJECT_DIR$/admin/Lib/Action/IndexAction.class.php" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part3.html" />
+        <option value="$PROJECT_DIR$/Public/config.public.php" />
+        <option value="$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php" />
+        <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
+        <option value="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
+        <option value="$PROJECT_DIR$/index/Tpl/Index/index.html" />
       </list>
     </option>
   </component>
@@ -621,6 +166,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -639,45 +185,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -742,7 +251,11 @@
       <created>1384707786120</created>
       <updated>1384707786120</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加后台页面，增加第二阶段页面">
+      <created>1384974885228</created>
+      <updated>1384974885228</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -769,22 +282,22 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32668328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19799139" sideWeight="0.6733167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20373027" sideWeight="0.6745636" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -800,110 +313,89 @@
     <MESSAGE value="部署项目" />
     <MESSAGE value="更改首页标题" />
     <MESSAGE value="添加 gitgnore 文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 gitgnore 文件" />
+    <MESSAGE value="增加后台页面，增加第二阶段页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加后台页面，增加第二阶段页面" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin.php">
+    <entry file="file://$PROJECT_DIR$/app/Tpl/dispatch_jump.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Lib/Action/CommonAction.class.php">
+    <entry file="file://$PROJECT_DIR$/app/Lib/Driver/Db/DbMysql.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
-          <folding />
-        </state>
+        <state line="57" column="0" selection-start="2195" selection-end="2195" vertical-scroll-proportion="-9.153846" vertical-offset="595" max-vertical-offset="5899" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Lib/Core/Db.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.33333334" vertical-offset="595" max-vertical-offset="15623" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Tpl/Public/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="40" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-20.5" vertical-offset="691" max-vertical-offset="1428">
-          <folding />
-        </state>
+        <state line="72" column="40" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-29.038462" vertical-offset="469" max-vertical-offset="1428" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/config.public.php">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="539" selection-end="539" vertical-scroll-proportion="0.42090786" vertical-offset="0" max-vertical-offset="727">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="123" vertical-scroll-proportion="0.022727273" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Tpl/Public/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="67" selection-start="278" selection-end="278" vertical-scroll-proportion="0.13877551" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Tpl/Public/password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Lib/Core/Action.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="380" column="0" selection-start="12418" selection-end="12418" vertical-scroll-proportion="0.67285717" vertical-offset="5853" max-vertical-offset="7089">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="27" selection-start="4999" selection-end="4999" vertical-scroll-proportion="2.0353742" vertical-offset="1037" max-vertical-offset="3094">
+        <state line="6" column="31" selection-start="129" selection-end="129" vertical-scroll-proportion="0.14325842" vertical-offset="0" max-vertical-offset="3094">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Tpl/dispatch_jump.tpl">
+    <entry file="file://$PROJECT_DIR$/Public/config.public.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+        <state line="16" column="19" selection-start="429" selection-end="429" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Tpl/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="33" selection-start="276" selection-end="276" vertical-scroll-proportion="0.09550562" vertical-offset="0" max-vertical-offset="2346">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="69" selection-end="74" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Tpl/Public/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="486" selection-end="486" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="2" column="25" selection-start="69" selection-end="74" vertical-scroll-proportion="0.045454547" vertical-offset="0" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Lib/Action/IndexAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="323">
+        <state line="6" column="27" selection-start="158" selection-end="158" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Tpl/Public/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="8" selection-start="486" selection-end="486" vertical-scroll-proportion="0.4318182" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="39" selection-start="342" selection-end="342" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Tpl/Index/index.html">
+    <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="276" selection-end="276" vertical-scroll-proportion="23.615385" vertical-offset="682" max-vertical-offset="2346">
+        <state line="7" column="39" selection-start="165" selection-end="176" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1309">
           <folding>
-            <element signature="n#style#0;n#span#1;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1534#2922#1" expanded="false" />
+            <element signature="e#2941#4364#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,7 +409,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="46" selection-start="2457" selection-end="2457" vertical-scroll-proportion="0.6553911" vertical-offset="1118" max-vertical-offset="2992">
+        <state line="84" column="46" selection-start="2457" selection-end="2457" vertical-scroll-proportion="-52.307693" vertical-offset="68" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="172" selection-start="4406" selection-end="4406" vertical-scroll-proportion="0.5634744" vertical-offset="1855" max-vertical-offset="2601">
           <folding />
         </state>
       </provider>

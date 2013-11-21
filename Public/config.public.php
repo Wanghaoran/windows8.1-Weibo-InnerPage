@@ -4,6 +4,8 @@ return array(
     'SHOW_PAGE_TRACE' =>true, // 显示页面Trace信息
     'OUTPUT_ENCODE' => true, // 页面压缩输出
 
+    'URL_CASE_INSENSITIVE' => true,
+
     'LANG_SWITCH_ON' => true,  //开启语言包
     'DEFAULT_LANG' => 'zh-cn', // 默认语言
 
