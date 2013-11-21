@@ -86,3 +86,4 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .ninebox .floorMain a.item8{left:636px;top:212px;}
 .ninebox .floorMain a.hover{}
 .ninebox .mask{position:absolute;background:#000;opacity:0;filter:alpha(opacity=0);left:0;top:0;width:204px; height:204px;}
+#ifr_footer{ display:none;}
