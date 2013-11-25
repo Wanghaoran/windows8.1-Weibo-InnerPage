@@ -2,13 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <html xmlns:wb="http://open.weibo.com/wb">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>八windows多一点</title>
-<link href="__PUBLIC__/part2/css/style.css" rel="stylesheet" type="text/css" />
-<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" src="__PUBLIC__/part2/javascript/jquery.js"></script>
-<script type="text/javascript">
-//search focusblur
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>八windows多一点</title>
+    <link href="__PUBLIC__/part2/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=321965248" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/appClient.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/client.js" type="text/javascript"></script>
+    <script type="text/javascript" src="__PUBLIC__/part2/javascript/jquery.js"></script>
+    <script type="text/javascript">
 	   jQuery.focusblur = function(focusid) {
 	   var focusblurid = $(focusid);
 	   var defval = focusblurid.val();
@@ -43,7 +44,7 @@ $(function() {
 		if( $("#wb").hasClass("wbhide") ) 
 		{
 			$("#wb").removeClass("wbhide"); 
-			$("#wb").animate({height:'280px'},[1000]);
+			$("#wb").animate({height:'404px'},[1000]);
 		}
 		else
 		{
@@ -66,17 +67,29 @@ $(function() {
 	});
 })
 </script>
+    <script>
+        var tosend = function(){
+            var status = WB2.checkLogin();
+            if(!status){
+                WB2.login(function() {
+                    alert('sss');
+                });
+            }else{
+                alert(status);
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="contain">
 	<div class="header">
-    <a href="#"><img src="__PUBLIC__/part2/images/logo.jpg" width="122" height="26" border="0" /></a>
+    <a href="#"><img src="__PUBLIC__/part2/images/logo.jpg" width="152" height="34" border="0" /></a>
     </div>
     <div class="banner">
     	<div class="bannerleft"></div>
         <div class="bannerright"></div>
     </div>
-    <div class="clear"></div>
+
     <div class="huatibox">
     	<div class="ht_top"></div>
         <div class="ht_mid">
@@ -84,9 +97,8 @@ $(function() {
             <div class="ht_m2eight">
             	<ul class="tab">
                 	<li class="choice"><a href="#">八Windows多一点</a></li>
-                    <li><a href="__URL__/part3">名人8话题回顾</a></li>
+                    <li><a href="#">名人8话题回顾</a></li>
                 </ul>
-                <div class="clear"></div>
                 <div class="con_eight">
                 	<p>用过Windows系统吗？知道Windows8全新的metro风格吗？</p>
                     <p>知道升级到Windows8.1了吗？</p>
@@ -98,7 +110,7 @@ $(function() {
                     <h2>为感兴趣的话题点赞，或者说出你想8的那个1点吧</h2>
                     <div class="fabu">
                     <form action="" method="get">
-                      <input class="input_selected1 w300" name="" type="text" value="#8不够&nbsp;多1点#" id="fabukey"><input name="" type="button" value="" class="btn_fabu"/>
+                      <input class="input_selected1 w300" name="" type="text" value="#8不够&nbsp;多1点#" id="fabukey"><input name="" type="button" value="" class="btn_fabu" onclick="tosend();"/>
                     </form>
                     </div><!--fabu end-->
                     <div class="squbox">
@@ -126,22 +138,17 @@ $(function() {
                 <div class="clear"></div>
             </div>
             <div class="ht_m3">
-            	<div class="search">
-                <form action="" method="get">
-                  <input class="input_selected1" name="" type="text" value="看看大家怎么说" id="searchkey"><input class="button" name="" type="button" value="">
-                </form>
-                </div><!--search end-->
                 <div class="biying">
                 	<a href="javascript:void(0);" id="wbShow">通过必应搜索</a>
                 </div>
-                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" titlebar="n" width="235" listid="485751195" uid="1052981072" height="290" ></wb:livestream></div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" appkey="321965248" topic="8不够 多1点|8不够 多1点" width="auto" height="430" member="n" refer="n" ></wb:livestream></div>
             </div>
             <div class="ht_m4"></div>
         </div>
-        <div class="clear"></div>
+
         <div class="ht_bot"></div>
     </div>
-    <div class="clear"></div>
+
     <div class="ninebox">
            <div class="floorMain">
                 <a href="#" class="item1"><img src="__PUBLIC__/part2/images/n1.jpg"><div class="mask"></div></a>

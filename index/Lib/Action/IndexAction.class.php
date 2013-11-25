@@ -8,4 +8,8 @@ class IndexAction extends Action {
         $this -> assign('list', $list);
         $this -> display();
     }
+
+    public function part2(){
+        $this -> display();
+    }
 }
