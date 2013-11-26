@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="44" selection-start="4724" selection-end="4728" vertical-scroll-proportion="5.449315" vertical-offset="357" max-vertical-offset="4896">
+            <state line="29" column="13" selection-start="1485" selection-end="1485" vertical-scroll-proportion="1.3506849" vertical-offset="0" max-vertical-offset="3910">
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -393,7 +393,11 @@
       <created>1385473448272</created>
       <updated>1385473448272</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="更改路径大小写">
+      <created>1385473828813</created>
+      <updated>1385473828813</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -463,7 +467,8 @@
     <MESSAGE value="重做 第二阶段页面" />
     <MESSAGE value="完成 第二阶段 页面及 功能" />
     <MESSAGE value="删除 话题选择&#10;增加 页面底部产品图片切换和图片链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除 话题选择&#10;增加 页面底部产品图片切换和图片链接" />
+    <MESSAGE value="更改路径大小写" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改路径大小写" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,7 +567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="44" selection-start="4724" selection-end="4728" vertical-scroll-proportion="5.449315" vertical-offset="357" max-vertical-offset="4896">
+        <state line="29" column="13" selection-start="1485" selection-end="1485" vertical-scroll-proportion="1.3506849" vertical-offset="0" max-vertical-offset="3910">
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>

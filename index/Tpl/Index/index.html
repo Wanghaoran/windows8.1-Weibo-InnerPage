@@ -28,64 +28,6 @@
             });
         })
     </script>
-
-    <script type="text/javascript">
-	   jQuery.focusblur = function(focusid) {
-	   var focusblurid = $(focusid);
-	   var defval = focusblurid.val();
-			   focusblurid.focus(function(){
-			   var thisval = $(this).val();
-			   $(this).removeClass("input_selected1");
-			   $(this).addClass("input_selected2");
-			   if(thisval==defval){
-			   $(this).val("");
-		   }
-	   });
-	   focusblurid.blur(function(){
-	   var thisval = $(this).val();
-	   if(thisval==""){
-			   $(this).val(defval);
-			   $(this).removeClass("input_selected2");
-			   $(this).addClass("input_selected1");
-		   }
-		 });
-		   
-	   };
-	   
-$(function() {
-		   
-	/*下面是调用search文本框方法*/
-	$.focusblur("#searchkey");
-	
-	/*向上弹出，向下收回*/
-	$("#wbShow").click(function() 
-    {      
-		if( $("#wb").hasClass("wbhide") ) 
-		{
-			$("#wb").removeClass("wbhide"); 
-			$("#wb").animate({height:'404px'},[1000]);
-		}
-		else
-		{
-			$("#wb").animate({height:'0px'},[1000]);
-			$("#wb").addClass("wbhide"); 
-		}
-          
-    }); 
-	
-	/*8按钮聚光灯效果*/
-	$(".floorMain").find("a").each(function() {
-		$(this).hover(function() {
-			$(this).siblings().find(".mask").stop();
-			$(this).siblings().find(".mask").fadeTo("fast",0.3);
-		},
-		function() {
-			$(this).siblings().find(".mask").stop();
-			$(this).siblings().find(".mask").fadeTo("fast",0);
-		});
-	});
-})
-</script>
 </head>
 <body>
 <div class="contain">
