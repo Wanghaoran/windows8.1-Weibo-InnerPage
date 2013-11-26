@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/index.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -397,7 +397,11 @@
       <created>1385473828813</created>
       <updated>1385473828813</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="删除 不需要的 js">
+      <created>1385473928420</created>
+      <updated>1385473928420</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -468,7 +472,8 @@
     <MESSAGE value="完成 第二阶段 页面及 功能" />
     <MESSAGE value="删除 话题选择&#10;增加 页面底部产品图片切换和图片链接" />
     <MESSAGE value="更改路径大小写" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改路径大小写" />
+    <MESSAGE value="删除 不需要的 js" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除 不需要的 js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
