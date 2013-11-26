@@ -14,21 +14,21 @@ class TopicWidget extends Action {
                 'comment' => array(
                     1 => array(
                         'uid' => '1265061803',
-                        'user_name' => '模特张亮',
+                        'user_name' => '张亮一点评',
                         'user_image' => 'http://tp4.sinaimg.cn/1265061803/50/5676514685/1',
-                        'content' => '有意思的 节日真的很多',
+                        'content' => '我发现有家有孩子的人，节日就是要比别人多有木有。。。哈哈哈',
                     ),
                     2 => array(
                         'uid' => '1798032167',
-                        'user_name' => 'Mike_D',
+                        'user_name' => 'Mike_D一点评',
                         'user_image' => 'http://tp4.sinaimg.cn/1798032167/50/5662076524/1',
-                        'content' => '各种新奇节目哦',
+                        'content' => '日子总是忙忙碌碌，很多节日要不是因为网友，真的就想不起来了。',
                     ),
                     3 => array(
                         'uid' => '1647415197',
-                        'user_name' => '暖小团',
+                        'user_name' => '暖小团一点评',
                         'user_image' => 'http://tp2.sinaimg.cn/1647415197/50/5645603258/0',
-                        'content' => '过节就是过节，谁看节目啊',
+                        'content' => '皆大欢喜的节没意思，部分人欢喜的节我过不上，总结起来就是，不喜欢过节。',
                     ),
                 ),
             ),
