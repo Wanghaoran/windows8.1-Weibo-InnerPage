@@ -46,10 +46,10 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .ht_m2 .discuss dl dt{ width:430px; height:30px; line-height:30px; border-bottom:#fff 1px solid; text-align:left; font-size:18px; color:#fff; font-weight:400;}
 .ht_m2 .discuss dl dd{ width:430px; height:60px; color:#fff; margin-top:10px;}
 .ht_m2 .discuss dl dd a img{ float:left; width:40px; height:40px; border:0; margin-right:10px;}
-.ht_m2 .discuss dl dd div{ float:left; width:380px; height:60px; }
+.ht_m2 .discuss dl dd div{ float:left; width:430px; height:60px; }
 .ht_m2 .discuss dl dd div h2{ height:20px; line-height:20px; text-align:left; font-size:14px; font-weight:400;}
 .ht_m2 .discuss dl dd div h2 .yellow-v{background:url(../images/yellow-v.png) right center no-repeat; padding-right:18px;}
-.ht_m2 .discuss dl dd div p{ height:30px; width:380px; overflow:hidden; line-height:15px; font-size:12px; padding-top:5px;}
+.ht_m2 .discuss dl dd div p{ height:30px; width:430px; overflow:hidden; line-height:15px; font-size:12px; padding-top:5px;}
 
 .ht_m3{ float:left; width:289px; height:441px; background:url(../images/htbg22.jpg) no-repeat; position:relative;}
 .ht_m3 .search{position:relative; width:277px; height:37px; line-height:37px; clear:both; margin:7px 0 0 12px; font-size:20px; }

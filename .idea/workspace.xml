@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" />
+    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="更改必应搜索图片">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/index.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/css/style.css" afterPath="$PROJECT_DIR$/Public/Index/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -26,11 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="98" selection-start="7783" selection-end="7783" vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="3757">
-              <folding />
+            <state line="103" column="23" selection-start="5002" selection-end="5002" vertical-scroll-proportion="1.4501278" vertical-offset="1184" max-vertical-offset="3893">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicWidget.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TopicWidget.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="43" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2227">
+            <state line="28" column="43" selection-start="1361" selection-end="1361" vertical-scroll-proportion="-0.0" vertical-offset="476" max-vertical-offset="2227">
               <folding />
             </state>
           </provider>
@@ -62,19 +65,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lang.public.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/lang.public.php">
+      <file leaf-file-name="IndexAction.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="4" column="12" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexAction.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
+      <file leaf-file-name="lang.public.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/lang.public.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="12" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="510">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -122,8 +125,8 @@
         <option value="$PROJECT_DIR$/index/Tpl/Index/part3.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
         <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
-        <option value="$PROJECT_DIR$/index/Tpl/Index/index.html" />
         <option value="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
+        <option value="$PROJECT_DIR$/index/Tpl/Index/index.html" />
       </list>
     </option>
   </component>
@@ -158,6 +161,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,71 +216,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,8 +226,8 @@
     <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../windowsphone" />
     <property name="FullScreen" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -417,7 +358,11 @@
       <created>1385530359146</created>
       <updated>1385530359146</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="更改必应搜索图片">
+      <created>1385566646772</created>
+      <updated>1385566646772</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -444,12 +389,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42910448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43034825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22166428" sideWeight="0.5708955" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.5696517" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -494,7 +439,8 @@
     <MESSAGE value="增加文字链接" />
     <MESSAGE value="增加底部 展示 图片" />
     <MESSAGE value="删除文字" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除文字" />
+    <MESSAGE value="更改必应搜索图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改必应搜索图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,6 +500,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="43" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Public/config.public.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="30" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
@@ -561,16 +514,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/lang.public.php">
+    <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+        <state line="4" column="12" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
+    <entry file="file://$PROJECT_DIR$/Public/lang.public.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="510">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
@@ -584,15 +537,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="98" selection-start="7783" selection-end="7783" vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="3757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="43" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2227">
-          <folding />
+        <state line="103" column="23" selection-start="5002" selection-end="5002" vertical-scroll-proportion="1.4501278" vertical-offset="1184" max-vertical-offset="3893">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
