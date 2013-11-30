@@ -42,7 +42,7 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .ht_m2 .toutiao dl dd.d_left{ width:98px; hheight:32px; line-height:32px; font-weight:400; font-size:16px; color:#fff;}
 .ht_m2 .toutiao dl dd.d_right{ width:429px; height:120px; color:#fff; font-size:14px; line-height:20px; padding-right:10px;}
 .ht_m2 .discuss dl dt{ width:430px; height:30px; line-height:30px; border-bottom:#fff 1px solid; text-align:left; font-size:18px; color:#fff; font-weight:400;}
-.ht_m2 .discuss dl dd{ width:430px; height:60px; color:#fff; margin-top:15px;}
+.ht_m2 .discuss dl dd{ width:430px; height:60px; color:#fff; margin-top:10px;}
 .ht_m2 .discuss dl dd a img{ float:left; width:40px; height:40px; border:0; margin-right:10px;}
 .ht_m2 .discuss dl dd div{ float:left; width:430px; height:60px; }
 .ht_m2 .discuss dl dd div h2{ height:20px; line-height:20px; text-align:left; font-size:14px; font-weight:400;}
