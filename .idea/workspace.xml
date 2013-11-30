@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/index.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -391,7 +391,11 @@
       <created>1385822353859</created>
       <updated>1385822353859</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="发布微博 显示 来源页链接">
+      <created>1385822691512</created>
+      <updated>1385822691512</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -446,7 +450,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="添加 gitgnore 文件" />
     <MESSAGE value="增加后台页面，增加第二阶段页面" />
     <MESSAGE value="更改页面" />
     <MESSAGE value="增加 高度自适应 代码" />
@@ -471,7 +474,8 @@
     <MESSAGE value="更改页面结构" />
     <MESSAGE value="更改文字和页面字体大小" />
     <MESSAGE value="更改首页 样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改首页 样式" />
+    <MESSAGE value="发布微博 显示 来源页链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布微博 显示 来源页链接" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
