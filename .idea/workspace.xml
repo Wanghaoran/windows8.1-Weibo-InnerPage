@@ -427,7 +427,11 @@
       <created>1385911303109</created>
       <updated>1385911303109</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="更改首页 右侧 评论">
+      <created>1385911312195</created>
+      <updated>1385911312195</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -482,7 +486,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="增加高度自适应js" />
     <MESSAGE value="增加 cnzz  统计代码" />
     <MESSAGE value="重做 第二阶段页面" />
     <MESSAGE value="完成 第二阶段 页面及 功能" />
@@ -507,7 +510,8 @@
     <MESSAGE value="增加图片" />
     <MESSAGE value="更改 大小写 错误" />
     <MESSAGE value="调整 新浪直播组件 高度" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整 新浪直播组件 高度" />
+    <MESSAGE value="更改首页 右侧 评论" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改首页 右侧 评论" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
