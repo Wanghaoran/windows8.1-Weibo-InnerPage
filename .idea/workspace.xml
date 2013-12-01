@@ -423,7 +423,11 @@
       <created>1385911240306</created>
       <updated>1385911240306</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="调整 新浪直播组件 高度">
+      <created>1385911303109</created>
+      <updated>1385911303109</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -478,7 +482,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更新 页面 兼容性4" />
     <MESSAGE value="增加高度自适应js" />
     <MESSAGE value="增加 cnzz  统计代码" />
     <MESSAGE value="重做 第二阶段页面" />
@@ -503,7 +506,8 @@
     <MESSAGE value="更新 联想 图片 链接" />
     <MESSAGE value="增加图片" />
     <MESSAGE value="更改 大小写 错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改 大小写 错误" />
+    <MESSAGE value="调整 新浪直播组件 高度" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整 新浪直播组件 高度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
