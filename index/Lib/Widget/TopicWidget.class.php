@@ -14,7 +14,7 @@ class TopicWidget extends Action {
                 'comment' => array(
                     1 => array(
                         'uid' => '1265061803',
-                        'user_name' => '张亮',
+                        'user_name' => '模特张亮',
                         'user_image' => 'http://tp4.sinaimg.cn/1265061803/50/5676514685/1',
                         'content' => '有了孩子以后节日也就多了，哈哈',
                     ),
