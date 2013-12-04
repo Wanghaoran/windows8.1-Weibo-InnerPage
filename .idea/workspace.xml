@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="更改必应图片">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part2.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
+    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -103,7 +103,7 @@
       <file leaf-file-name="part2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="40" selection-start="4088" selection-end="4088" vertical-scroll-proportion="0.7219917" vertical-offset="1590" max-vertical-offset="2907">
+            <state line="114" column="40" selection-start="4088" selection-end="4088" vertical-scroll-proportion="-0.4122288" vertical-offset="2147" max-vertical-offset="2907">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
@@ -181,7 +181,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,6 +299,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,8 +308,8 @@
     <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../windowsphone" />
     <property name="FullScreen" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -520,7 +520,11 @@
       <created>1386038752803</created>
       <updated>1386038752803</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="更新第二阶段页面 内容">
+      <created>1386089243068</created>
+      <updated>1386089243068</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -552,7 +556,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19799139" sideWeight="0.7425373" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20086083" sideWeight="0.7425373" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -575,7 +579,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更改路径大小写" />
     <MESSAGE value="删除 不需要的 js" />
     <MESSAGE value="更改图片" />
     <MESSAGE value="名字加 v" />
@@ -600,7 +603,8 @@
     <MESSAGE value="更改名字" />
     <MESSAGE value="首页大改版" />
     <MESSAGE value="更改必应图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改必应图片" />
+    <MESSAGE value="更新第二阶段页面 内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新第二阶段页面 内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,7 +707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="40" selection-start="4088" selection-end="4088" vertical-scroll-proportion="0.7219917" vertical-offset="1590" max-vertical-offset="2907">
+        <state line="114" column="40" selection-start="4088" selection-end="4088" vertical-scroll-proportion="-0.4122288" vertical-offset="2147" max-vertical-offset="2907">
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
