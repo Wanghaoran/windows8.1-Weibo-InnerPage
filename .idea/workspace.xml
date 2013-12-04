@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" afterPath="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicWidget.class.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TopicWidget.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="2227">
+            <state line="20" column="21" selection-start="951" selection-end="951" vertical-scroll-proportion="0.6035503" vertical-offset="34" max-vertical-offset="2125">
               <folding />
             </state>
           </provider>
@@ -100,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part2.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="part2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="40" selection-start="4088" selection-end="4088" vertical-scroll-proportion="-0.4122288" vertical-offset="2147" max-vertical-offset="2907">
+            <state line="114" column="40" selection-start="4088" selection-end="4088" vertical-scroll-proportion="8.038462" vertical-offset="2147" max-vertical-offset="2907">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
@@ -143,10 +143,10 @@
         <option value="$PROJECT_DIR$/index/Tpl/Index/part3.html" />
         <option value="$PROJECT_DIR$/Public/Index/css/style.css" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/index.html" />
-        <option value="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
         <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/index2.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
+        <option value="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
       </list>
     </option>
   </component>
@@ -308,8 +308,8 @@
     <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../windowsphone" />
     <property name="FullScreen" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -524,7 +524,11 @@
       <created>1386089243068</created>
       <updated>1386089243068</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="更新必应图片">
+      <created>1386123190378</created>
+      <updated>1386123190378</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -549,14 +553,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25746268" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25746268" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20086083" sideWeight="0.7425373" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20373027" sideWeight="0.7425373" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -579,7 +583,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="删除 不需要的 js" />
     <MESSAGE value="更改图片" />
     <MESSAGE value="名字加 v" />
     <MESSAGE value="增加文字链接" />
@@ -604,7 +607,8 @@
     <MESSAGE value="首页大改版" />
     <MESSAGE value="更改必应图片" />
     <MESSAGE value="更新第二阶段页面 内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新第二阶段页面 内容" />
+    <MESSAGE value="更新必应图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新必应图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -684,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="2227">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="27" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="663">
@@ -707,11 +704,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="40" selection-start="4088" selection-end="4088" vertical-scroll-proportion="-0.4122288" vertical-offset="2147" max-vertical-offset="2907">
+        <state line="114" column="40" selection-start="4088" selection-end="4088" vertical-scroll-proportion="8.038462" vertical-offset="2147" max-vertical-offset="2907">
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="951" selection-end="951" vertical-scroll-proportion="0.6035503" vertical-offset="34" max-vertical-offset="2125">
+          <folding />
         </state>
       </provider>
     </entry>
