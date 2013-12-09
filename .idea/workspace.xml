@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" afterPath="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" afterPath="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -56,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicWidget.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TopicWidget.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="22" selection-start="3900" selection-end="3900" vertical-scroll-proportion="0.80473375" vertical-offset="884" max-vertical-offset="2040">
+            <state line="76" column="22" selection-start="3900" selection-end="3900" vertical-scroll-proportion="-16.346153" vertical-offset="867" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -74,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexAction.class.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="IndexAction.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="663">
+            <state line="4" column="15" selection-start="160" selection-end="160" vertical-scroll-proportion="0.13127413" vertical-offset="0" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -142,9 +141,9 @@
         <option value="$PROJECT_DIR$/Public/Index/css/style.css" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/index2.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
-        <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/index.html" />
         <option value="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
+        <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
       </list>
     </option>
   </component>
@@ -550,7 +549,11 @@
       <created>1386331423508</created>
       <updated>1386331423509</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="更新 必应图片  和  话题">
+      <created>1386558639601</created>
+      <updated>1386558639602</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -575,14 +578,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25746268" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25810474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.7425373" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.74189526" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -592,7 +596,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -605,8 +608,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更改必应搜索图片" />
-    <MESSAGE value="取消点评头像  和  页面底部 头像图片切换" />
     <MESSAGE value="更改页面结构" />
     <MESSAGE value="更改文字和页面字体大小" />
     <MESSAGE value="更改首页 样式" />
@@ -630,7 +631,9 @@
     <MESSAGE value="更改产品图片" />
     <MESSAGE value="更改必应图片" />
     <MESSAGE value="更改搜索图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改搜索图片" />
+    <MESSAGE value="更新 必应图片  和  话题" />
+    <MESSAGE value="更改话题读取" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改话题读取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -724,16 +727,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
+    <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="663">
+        <state line="76" column="22" selection-start="3900" selection-end="3900" vertical-scroll-proportion="-16.346153" vertical-offset="867" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
+    <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="22" selection-start="3900" selection-end="3900" vertical-scroll-proportion="0.80473375" vertical-offset="884" max-vertical-offset="2040">
+        <state line="4" column="15" selection-start="160" selection-end="160" vertical-scroll-proportion="0.13127413" vertical-offset="0" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
