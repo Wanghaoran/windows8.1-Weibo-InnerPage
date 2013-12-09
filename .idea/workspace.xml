@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/search.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/search.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index/images/htbg22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" afterPath="$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -58,7 +59,7 @@
       <file leaf-file-name="TopicWidget.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="91" selection-start="1453" selection-end="2002" vertical-scroll-proportion="0.2919132" vertical-offset="515" max-vertical-offset="2142">
+            <state line="76" column="22" selection-start="3900" selection-end="3900" vertical-scroll-proportion="0.80473375" vertical-offset="884" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -305,8 +306,8 @@
     <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../windows-phone-exam" />
     <property name="FullScreen" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -545,7 +546,11 @@
       <created>1386294151361</created>
       <updated>1386294151361</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="更改搜索图片">
+      <created>1386331423508</created>
+      <updated>1386331423509</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -570,14 +575,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25746268" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22166428" sideWeight="0.7425373" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.7425373" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -600,7 +605,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="删除文字" />
     <MESSAGE value="更改必应搜索图片" />
     <MESSAGE value="取消点评头像  和  页面底部 头像图片切换" />
     <MESSAGE value="更改页面结构" />
@@ -625,7 +629,8 @@
     <MESSAGE value=" 更新必应图片" />
     <MESSAGE value="更改产品图片" />
     <MESSAGE value="更改必应图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改必应图片" />
+    <MESSAGE value="更改搜索图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改搜索图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Lib/Widget/TopicWidget.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="91" selection-start="1453" selection-end="2002" vertical-scroll-proportion="0.2919132" vertical-offset="515" max-vertical-offset="2142">
+        <state line="76" column="22" selection-start="3900" selection-end="3900" vertical-scroll-proportion="0.80473375" vertical-offset="884" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
