@@ -21,7 +21,7 @@ class IndexAction extends Action {
 
     public function part2(){
         $WeiboShareList = M('WeiboShareList');
-        $result = $WeiboShareList -> field('content,reposts_count,user_screen_name,user_profile_image_url,user_description,mid,uid') -> where('isshow=1') -> limit(30) -> order('created_at DESC') -> select();
+        $result = $WeiboShareList -> field('weiboId,content,reposts_count,user_screen_name,user_profile_image_url,user_description,mid,uid,zannum') -> where('isshow=1') -> limit(30) -> order('created_at DESC') -> select();
         $this -> assign('result', $result);
         $this -> display();
     }
@@ -33,5 +33,12 @@ class IndexAction extends Action {
         $list = R('Topic2/topic',array($id, true),'Widget');
         $this -> assign('list', $list);
         $this -> display();
+    }
+
+    public function addzannum(){
+        $WeiboShareList = M('WeiboShareList');
+        $WeiboShareList -> where(array('weiboId' => $this -> _get('id'))) -> setInc('zannum');
+        $arr = $WeiboShareList -> field('zannum') -> where(array('weiboId' => $this -> _get('id'))) -> find();
+        echo $arr['zannum'];
     }
 }
