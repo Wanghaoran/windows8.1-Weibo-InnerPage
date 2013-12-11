@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part2.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index3/css/style.css" afterPath="$PROJECT_DIR$/Public/Index3/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part2.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="part2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="43" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.37103173" vertical-offset="1343" max-vertical-offset="3774">
+            <state line="90" column="12" selection-start="2886" selection-end="2886" vertical-scroll-proportion="-9.153846" vertical-offset="1292" max-vertical-offset="3774">
               <folding>
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
@@ -101,12 +101,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/Index3/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="135" selection-start="6574" selection-end="6574" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2924">
+            <state line="99" column="80" selection-start="6519" selection-end="6519" vertical-scroll-proportion="0.23168316" vertical-offset="1566" max-vertical-offset="2924">
               <folding>
-                <marker date="1386783919000" expanded="true" signature="900:924" placeholder="{...}" />
+                <marker date="1386786235000" expanded="true" signature="900:924" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -153,9 +153,9 @@
         <option value="$PROJECT_DIR$/Public/admin/dwz/themes/default/style.css" />
         <option value="$PROJECT_DIR$/admin/Tpl/Public/menu.html" />
         <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html" />
-        <option value="$PROJECT_DIR$/Public/Index3/css/style.css" />
         <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
+        <option value="$PROJECT_DIR$/Public/Index3/css/style.css" />
       </list>
     </option>
   </component>
@@ -782,7 +782,11 @@
       <created>1386785540372</created>
       <updated>1386785540372</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="应该可以了吧～">
+      <created>1386786116113</created>
+      <updated>1386786116113</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -973,15 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Index3/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="135" selection-start="6574" selection-end="6574" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2924">
-          <folding>
-            <marker date="1386783919000" expanded="true" signature="900:924" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-9.692307" vertical-offset="207" max-vertical-offset="714">
@@ -998,10 +993,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="43" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.37103173" vertical-offset="1343" max-vertical-offset="3774">
+        <state line="90" column="12" selection-start="2886" selection-end="2886" vertical-scroll-proportion="-9.153846" vertical-offset="1292" max-vertical-offset="3774">
           <folding>
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Index3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="80" selection-start="6519" selection-end="6519" vertical-scroll-proportion="0.23168316" vertical-offset="1566" max-vertical-offset="2924">
+          <folding>
+            <marker date="1386786235000" expanded="true" signature="900:924" placeholder="{...}" />
           </folding>
         </state>
       </provider>
