@@ -3,29 +3,32 @@
 <html xmlns:wb="http://open.weibo.com/wb">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>page1</title>
+<title>8不够？多1点！</title>
 <link href="__PUBLIC__/Index3/css/style.css" rel="stylesheet" type="text/css" />
-<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=321965248" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/appClient.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/client.js" type="text/javascript"></script>
 <script type="text/javascript" src="__PUBLIC__/Index3/javascript/jquery.js"></script>
 <script src="__PUBLIC__/Index3/javascript/MSClass.js" type="text/javascript"></script>
 <script type="text/javascript">
 
-//点击按钮收缩展开			
-function setTab(name,cursel,n){
-for(i=1;i<=n;i++){
-var menu=document.getElementById(name+i);
-var con=document.getElementById("con_"+name+"_"+i);
-menu.className=i==cursel?"hover":"";
-if(i==cursel)
-{
-	con.style.display=(con.style.display=="none")?"block":"none";
-	}
-else if(i!=cursel)
-{
-	con.style.display="none";
-	}
-}
-}
+    //点击按钮收缩展开
+    function setTab(name,cursel,n){
+        for(i=1;i<=n;i++){
+            var menu=document.getElementById(name+i);
+            var con=document.getElementById("con_"+name+"_"+i);
+            menu.className=i==cursel?"hover":"";
+            if(i==cursel)
+            {
+                con.style.display=(con.style.display=="block")?"none":"block";
+            }
+            else if(i!=cursel)
+            {
+                con.style.display="none";
+            }
+        }
+    }
+
 
 $(function() {
 	$("#wbShow").click(function(event) 
@@ -101,59 +104,37 @@ $(function() {
 				<div class="clear"></div>
                 <div id="MarqueeDiv" style="width:430px; height:290px;overflow:hidden;">
                 <table width="430" border="0" cellspacing="0" cellpadding="0" align="center">
+                <volist name="result" id="r" mod="3">
+                    <eq name="mod" value="0">
                   <tr>
                     <td height="145" align="center" valign="middle">
                         <ul class="praisebox">
-                            <li class="color1">
+                    </eq>
+
+                            <li class="color<-{$i|outputnum}->">
                                 <div class="info">
-                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                	<-{$r.content}->
                                     <div class="tishi">
                                         <dt></dt>
                                         <dd>
-                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
-                                            <h2>张三</h2>
-                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                            <a href="#"><img src="<-{$r.user_profile_image_url}->" /></a>
+                                            <h2><-{$r.user_screen_name}-></h2>
+                                            <P><-{$r.user_description}-></P>
                                         </dd>
                                         
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?app_src=w8ffy&mid=<-{$r.mid|getCodeByMid}->&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank"><-{$r.reposts_count}-></a></div>
                                 
                             </li>
-                            <li class="color2">
-                                <div class="info">
-                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
-                                    <div class="tishi">
-                                        <dt></dt>
-                                        <dd>
-                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
-                                            <h2>张三</h2>
-                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
-                                        </dd>
-                                        
-                                    </div>
-                                </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
-                            </li>
-                            <li class="color3">
-                                <div class="info">
-                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
-                                    <div class="tishi">
-                                        <dt></dt>
-                                        <dd>
-                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
-                                            <h2>张三</h2>
-                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
-                                        </dd>
-                                        
-                                    </div>
-                                </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
-                            </li>
-                            
+
+                    <eq name="mod" value="2">
                         </ul>
                          </td>
                   </tr>
+                        </eq>
+                  </volist>
+                  <!--
                   <tr>
                     <td height="145" align="center" valign="middle">
                     	<ul class="praisebox">
@@ -167,10 +148,10 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
                             <li class="color5">
                                 <div class="info">
@@ -182,10 +163,10 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
                             <li class="color6">
                                 <div class="info">
@@ -197,10 +178,10 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
                         </ul>
                     </td>
@@ -218,11 +199,11 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
-                                
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
+
                             </li>
                             <li class="color2">
                                 <div class="info">
@@ -234,10 +215,10 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
                             <li class="color3">
                                 <div class="info">
@@ -249,15 +230,16 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
-                            
+
                         </ul>
                          </td>
                   </tr>
+
                   <tr>
                     <td height="145" align="center" valign="middle">
                     	<ul class="praisebox">
@@ -271,10 +253,10 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
                             <li class="color5">
                                 <div class="info">
@@ -286,10 +268,10 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
                             <li class="color6">
                                 <div class="info">
@@ -301,10 +283,10 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
                         </ul>
                     </td>
@@ -322,11 +304,11 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
-                                
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
+
                             </li>
                             <li class="color2">
                                 <div class="info">
@@ -338,10 +320,10 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
                             <li class="color3">
                                 <div class="info">
@@ -353,66 +335,16 @@ $(function() {
                                             <h2>张三</h2>
                                             <P>想当，年金戈铁马；看今朝，死缠烂打</P>
                                         </dd>
-                                        
+
                                     </div>
                                 </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
+                                <div class="btn_praise"><a href="http://widget.weibo.com/dialog/PublishWeb.php?mid=Akl37wvpO&uid=1652987982&refer=y&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A1%E7%82%B9&language=zh_cn&button=forward" target="_blank">125</a></div>
                             </li>
-                            
+
                         </ul>
                          </td>
                   </tr>
-                  <tr>
-                    <td height="145" align="center" valign="middle">
-                    	<ul class="praisebox">
-                            <li class="color4">
-                                <div class="info">
-                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
-                                    <div class="tishi">
-                                        <dt></dt>
-                                        <dd>
-                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
-                                            <h2>张三</h2>
-                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
-                                        </dd>
-                                        
-                                    </div>
-                                </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
-                            </li>
-                            <li class="color5">
-                                <div class="info">
-                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
-                                    <div class="tishi">
-                                        <dt></dt>
-                                        <dd>
-                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
-                                            <h2>张三</h2>
-                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
-                                        </dd>
-                                        
-                                    </div>
-                                </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
-                            </li>
-                            <li class="color6">
-                                <div class="info">
-                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
-                                    <div class="tishi">
-                                        <dt></dt>
-                                        <dd>
-                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
-                                            <h2>张三</h2>
-                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
-                                        </dd>
-                                        
-                                    </div>
-                                </div>
-                                <div class="btn_praise"><a href="#">125</a></div>
-                            </li>
-                        </ul>
-                    </td>
-                  </tr>
+-->
                   </table>
                   </div>
                   <script type="text/javascript">
@@ -420,20 +352,20 @@ $(function() {
                 new Marquee("MarqueeDiv",0,1,430,290,30,0,0)
                 </script>
                 <div class="clear10"></div>
-                <a href="#" class="btn_wybyx"></a>
+                <a href="http://widget.weibo.com/dialog/PublishWeb.php?app_src=w8ffy&uid=1652987982&&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A%E4%B8%80%E7%82%B9&language=zh_cn&button=pubilish&app" class="btn_wybyx" target="_blank"></a>
                 <div class="clear10"></div>
                 <div class="btn_foot">
-                <a href="javascript:void(0);" id="one1" onclick="setTab('one',1,2);return false;">活动规则</a><a href="javascript:void(0);" id="one2" onclick="setTab('one',2,2);return false;">奖品设置</a>
+                    <a href="javascript:void(0);" id="one1" onclick="setTab('one',1,2);return false;">活动规则</a><a href="javascript:void(0);" id="one2" onclick="setTab('one',2,2);return false;">奖品设置</a>
                 </div>
                 <div class="clear"></div>
                 <!--弹出层-->
                 <div class="sharp" id="con_one_1">
                     <div class="sharp_con">
                     	<div class="sharp_row1"></div>
-                        <ul class="guize">
-                        	<li class="gz1">一等奖: 最终点赞最多的4个话题提供者，将获得微软限量版精致鼠标</li>
-                            <li class="gz2">二等奖: 最终点赞排名第5-10名的6个话题提供者，将获得微软精致双肩背包</li>
-                            <li class="gz3">三等奖: 随机抽取150名参与话题征集的网友，送上微软限量版精美冰箱贴</li>
+                        <ul class="huodong">
+                        	<li class="gz1">用过Windows系统吗？ 知道Windows8全新的modern风格吗？知道升级到Windows8.1了吗？</li>
+                            <li class="gz1">Windows8.1将带给你多1点体验，多1点惊喜！</li>
+                            <li class="gz1">发布话题告诉我们你对Windows8.1的好奇，就有可能获得名人专属视频点评，给你感兴趣的话题点赞，更有精致礼品送给你！</li>
                         </ul>
                     </div>
                 </div>
@@ -451,7 +383,7 @@ $(function() {
             <div class="ht_m3">
             	<div class="biying"></div>
                 <div class="search"><a href="javascript:void(0);" id="wbShow"><img src="__PUBLIC__/Index3/images/search.jpg"/></a></div>
-                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" titlebar="n" width="294" listid="485751195" uid="1052981072" height="476" ></wb:livestream></div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" appkey="321965248" topic="8%E4%B8%8D%E5%A4%9F%20%E5%A4%9A1%E7%82%B9|8%E4%B8%8D%E5%A4%9F%20%E5%A4%9A1%E7%82%B9" width="auto" height="502" member="n" refer="y" ></wb:livestream></div>
             </div>
             <div class="ht_m4"></div>
         </div>
@@ -461,15 +393,15 @@ $(function() {
 
     <div class="ninebox">
            <div class="floorMain">
-                <a href="#" class="item1"><img src="__PUBLIC__/Index3/images/n1.jpg"><div class="mask"></div></a>
-                <a href="#" class="item2"><img src="__PUBLIC__/Index3/images/n2.jpg"><div class="mask"></div></a>
-                <a href="#" class="item3"><img src="__PUBLIC__/Index3/images/n3.jpg"><div class="mask"></div></a>
-                <a href="#" class="item4"><img src="__PUBLIC__/Index3/images/n4.jpg"><div class="mask"></div></a>
-                <a href="#" class="item5"><img src="__PUBLIC__/Index3/images/n5.jpg"><div class="mask"></div></a>
-                <a href="#" class="item6"><img src="__PUBLIC__/Index3/images/n6.jpg"><div class="mask"></div></a>
-                <a href="#" class="item7"><img src="__PUBLIC__/Index3/images/n7.jpg"><div class="mask"></div></a>
-                <a href="#" class="item8"><img src="__PUBLIC__/Index3/images/n8.jpg"><div class="mask"></div></a>
-          </div>
+               <a href="http://www.samsung.com/cn/consumer/computers-office/ultra-mobile-pc/ativ-tab/XE300TZC-K01CN?subsubtype=ativ-tab-3" target="_blank" class="item1"><img src="__PUBLIC__/Index3/images/n1.jpg"><div class="mask"></div></a>
+               <a href="http://www.samsung.com/cn/consumer/computers-office/ultra-mobile-pc/ativ-tab/XE300TZC-K01CN?subsubtype=ativ-tab-3" target="_blank" href="#" class="item2"><img src="__PUBLIC__/Index3/images/n2.jpg"><div class="mask"></div></a>
+               <a target="_blank" href="http://www.sonystyle.com.cn/products/vaio/t111.htm" class="item3"><img src="__PUBLIC__/Index3/images/n3.jpg"><div class="mask"></div></a>
+               <a target="_blank" href="http://www.sonystyle.com.cn/products/vaio/t111.htm" class="item4"><img src="__PUBLIC__/Index3/images/n4.jpg"><div class="mask"></div></a>
+               <a target="_blank" href="http://www.asus.com.cn/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100/" class="item5"><img src="__PUBLIC__/Index3/images/n5.jpg"><div class="mask"></div></a>
+               <a target="_blank" href="http://www.asus.com.cn/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100/" class="item6"><img src="__PUBLIC__/Index3/images/n6.jpg"><div class="mask"></div></a>
+               <a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2100021256" class="item7"><img src="__PUBLIC__/Index3/images/n7.jpg"><div class="mask"></div></a>
+               <a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2100021256" class="item8"><img src="__PUBLIC__/Index3/images/n8.jpg"><div class="mask"></div></a>
+           </div>
     </div>
 </div>
 </body>

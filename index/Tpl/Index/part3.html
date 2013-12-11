@@ -3,9 +3,11 @@
 <html xmlns:wb="http://open.weibo.com/wb">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>page1</title>
+<title>8不够？多1点！</title>
 <link href="__PUBLIC__/Index3/css/style.css" rel="stylesheet" type="text/css" />
-<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=321965248" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/appClient.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/client.js" type="text/javascript"></script>
 <script type="text/javascript" src="__PUBLIC__/Index3/javascript/jquery.js"></script>
 <script type="text/javascript">
 $(function() {
@@ -66,64 +68,64 @@ $(function() {
     	<div class="bannerleft"></div>
         <div class="bannerright"></div>
     </div>
+    <a name="windows"></a>
 
     <div class="huatibox">
     	<div class="ht_top"></div>
         <div class="ht_mid">
         	<div class="ht_m1"></div>
+
             <div class="ht_m2 ht_m21">
             	<ul class="tab">
                 	<li><a href="__URL__/part2" class="nav3"></a></li>
                     <li><a href="#" class="nav4"></a></li>
                 </ul>
 				<div class="clear"></div>
+
             	<div class="toutiao">
                 	<dl>
-                    	<dt>8话题之各种新奇节日的风生水起</dt>
+                    	<dt>8话题之<-{$result.title}-></dt>
                         <dd class="d_left">
-                        	<a href="#"><img src="__UPLOAD__/img_w1.jpg" /></a>
-                            <div><span class="fr">苏芩</span><span class="fl">主讲人</span></div>
+                        	<a href="http://weibo.com/u/<-{$result.uid}->" target="_blank"><img src="<-{$result.host_image}->" /></a>
+                            <div><span class="fr"><-{$result.host_name}-></span><span class="fl">主讲人</span></div>
                         </dd>
                         <dd class="d_right">
-                        说起过节，大家的兴奋点应该只会放在放假上了，过节几乎已经失去了节日本身的意义，不过在网络上，大家却创造了许多新的节日，并且过的热热闹闹，风生水起，像是11.11光棍节，10.10萌节，8.18八卦节，5.20我爱你情人节...也许比起传统节日，这些搞怪的节日更能满足现代人的心理，在一个特定的日子，抒发现代人特有的感慨。
+                            <-{$result.content}->
                         </dd>
                     </dl> <div class="clear"></div>
                 </div>
-               
+
                 <div class="discuss">
                 	<dl>
                     	<dt>
                         	1点点评
                         </dt>
-                        <dd>
-                        	<a href="#"><img src="__UPLOAD__/img_w3.jpg" /></a>
-                            <div>
-                            <h2>暖小团：</h2>
-                            <p>点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评</p>
-                            </div>
-                        </dd>
-                        <dd>
-                        	<a href="#"><img src="__UPLOAD__/img_w4.jpg" /></a>
-                            <div>
-                            <h2>Mike_D：</h2>
-                            <p>点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评</p>
-                            </div>
-                        </dd><div class="clear"></div>
+                        <volist name="result.comment" id="rc">
+                            <dd>
+                                <a href="http://weibo.com/u/<-{$rc.uid}->" target="_blank"><img src="<-{$rc.user_image}->" /></a>
+                                <div>
+                                    <h2><-{$rc.user_name}->：</h2>
+                                    <p><-{$rc.content}-></p>
+                                </div>
+                            </dd>
+                        </volist>
+
+                        <div class="clear"></div>
                     </dl> 
                 </div>
                
                 <div class="btn_ht">
                 	<ul>
-                    	<li class="jv"><a href="#">8话题之各种新奇节日的风生水起</a></li>
-                        <li class="lv"><a href="#">8话题之各种新奇节日的风生水起</a></li>
-                        <li class="zi"><a href="#">8话题之各种新奇节日的风生水起</a></li>
+                        <volist name="list" id="l">
+                            <li class="<-{$l.color}->"><a href="__ACTION__/tid/<-{$key}->#windows">8话题之<-{$l.title}-></a></li>
+                        </volist>
                     </ul>
                 </div>
             </div>
             <div class="ht_m3">
             	<div class="biying"></div>
                 <div class="search"><a href="javascript:void(0);" id="wbShow"><img src="__PUBLIC__/Index3/images/search.jpg"/></a></div>
-                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" titlebar="n" width="294" listid="485751195" uid="1052981072" height="476" ></wb:livestream></div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" appkey="321965248" topic="8%E4%B8%8D%E5%A4%9F%20%E5%A4%9A1%E7%82%B9|8%E4%B8%8D%E5%A4%9F%20%E5%A4%9A1%E7%82%B9" width="auto" height="502" member="n" refer="y" ></wb:livestream></div>
             </div>
             <div class="ht_m4"></div>
         </div>
@@ -133,14 +135,14 @@ $(function() {
 
     <div class="ninebox">
            <div class="floorMain">
-                <a href="#" class="item1"><img src="__PUBLIC__/Index3/images/n1.jpg"><div class="mask"></div></a>
-                <a href="#" class="item2"><img src="__PUBLIC__/Index3/images/n2.jpg"><div class="mask"></div></a>
-                <a href="#" class="item3"><img src="__PUBLIC__/Index3/images/n3.jpg"><div class="mask"></div></a>
-                <a href="#" class="item4"><img src="__PUBLIC__/Index3/images/n4.jpg"><div class="mask"></div></a>
-                <a href="#" class="item5"><img src="__PUBLIC__/Index3/images/n5.jpg"><div class="mask"></div></a>
-                <a href="#" class="item6"><img src="__PUBLIC__/Index3/images/n6.jpg"><div class="mask"></div></a>
-                <a href="#" class="item7"><img src="__PUBLIC__/Index3/images/n7.jpg"><div class="mask"></div></a>
-                <a href="#" class="item8"><img src="__PUBLIC__/Index3/images/n8.jpg"><div class="mask"></div></a>
+                <a href="http://www.samsung.com/cn/consumer/computers-office/ultra-mobile-pc/ativ-tab/XE300TZC-K01CN?subsubtype=ativ-tab-3" target="_blank" class="item1"><img src="__PUBLIC__/Index3/images/n1.jpg"><div class="mask"></div></a>
+                <a href="http://www.samsung.com/cn/consumer/computers-office/ultra-mobile-pc/ativ-tab/XE300TZC-K01CN?subsubtype=ativ-tab-3" target="_blank" href="#" class="item2"><img src="__PUBLIC__/Index3/images/n2.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://www.sonystyle.com.cn/products/vaio/t111.htm" class="item3"><img src="__PUBLIC__/Index3/images/n3.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://www.sonystyle.com.cn/products/vaio/t111.htm" class="item4"><img src="__PUBLIC__/Index3/images/n4.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://www.asus.com.cn/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100/" class="item5"><img src="__PUBLIC__/Index3/images/n5.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://www.asus.com.cn/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100/" class="item6"><img src="__PUBLIC__/Index3/images/n6.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2100021256" class="item7"><img src="__PUBLIC__/Index3/images/n7.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2100021256" class="item8"><img src="__PUBLIC__/Index3/images/n8.jpg"><div class="mask"></div></a>
           </div>
     </div>
 </div>

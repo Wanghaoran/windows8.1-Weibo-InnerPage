@@ -34,6 +34,7 @@
 			<th width="70">发布用户</th>
 			<th width="60">发布时间</th>
 			<th width="270">发布内容</th>
+              <th width="30">前台显示</th>
 		</tr>
 		</thead>
 		<tbody>
@@ -46,6 +47,11 @@
 			  <td><-{$r.user_screen_name}-></td>
 			  <td><-{$r.created_at|date="Y-m-d H:i:s", ###}-></td>
 			  <td><-{$r.content}-></td>
+            <eq name="r.isshow" value="1">
+                <td><a href="__URL__/checkshow/id/<-{$r.weiboId}->/type/0/navTabId/phaseone_topic" target="ajaxTodo" style="color: green;">显示</a></td>
+            <else/>
+                <td><a href="__URL__/checkshow/id/<-{$r.weiboId}->/type/1/navTabId/phaseone_topic" target="ajaxTodo" style="color: red;">不显示</a></td>
+            </eq>
 			</tr>
 		</volist>
 		</tbody>

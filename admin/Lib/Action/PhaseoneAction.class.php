@@ -4,7 +4,7 @@ class PhaseoneAction extends CommonAction{
 
     public function topic(){
         $where = array();
-        R('Public/select', array('WeiboShareList', 'weiboId,uid,content,created_at,user_screen_name,ischeck,reposts_count', $where, 'created_at DESC'));
+        R('Public/select', array('WeiboShareList', 'weiboId,uid,content,created_at,user_screen_name,ischeck,reposts_count,isshow', $where, 'created_at DESC'));
         $this -> display();
     }
 
@@ -28,14 +28,16 @@ class PhaseoneAction extends CommonAction{
                     $data['created_at'] = strtotime($value['created_at']);
                     $data['user_profile_image_url'] = $value['user']['profile_image_url'];
                     $data['user_screen_name'] = $value['user']['screen_name'];
+                    $data['user_description'] = $value['user']['description'];
                     $data['reposts_count'] = $value['reposts_count'];
                     $data['uid'] = $value['user']['idstr'];
+                    $data['mid'] = $value['mid'];
                     if($WeiboShareList -> add($data)){
                         $numTotal ++;
                     }else{
                         $update_data = array();
                         $update_data['weiboId'] = $value['idstr'];
-                        $data['reposts_count'] = $value['reposts_count'];
+                        $update_data['reposts_count'] = $value['reposts_count'];
                         $update += $WeiboShareList -> save($update_data);
                     }
                     usleep(1000);
@@ -45,10 +47,10 @@ class PhaseoneAction extends CommonAction{
             }
             usleep(10000);
         }
-        if($numTotal){
+        if($numTotal || $update){
             $this -> success('采集成功,共采集到 ' . $numTotal . ' 条数据,更新' . $update . '条数据');
         }else{
-            $this -> error('采集失败，没有新数据,更新' . $update . '条数据');
+            $this -> error('采集失败，没有新数据');
         }
     }
 
@@ -62,6 +64,18 @@ class PhaseoneAction extends CommonAction{
             $this -> error(L('DATA_DELETE_ERROR'));
         }
 
+    }
+
+    public function checkshow(){
+        $WeiboShareList = M('WeiboShareList');
+        $update = array();
+        $update['weiboId'] = $_GET['id'];
+        $update['isshow'] = $_GET['type'];
+        if($WeiboShareList -> save($update)){
+            $this -> success(L('DATA_UPDATE_SUCCESS'));
+        }else{
+            $this -> error(L('DATA_UPDATE_ERROR'));
+        }
     }
 
 } 
