@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index3/css/style.css" afterPath="$PROJECT_DIR$/Public/Index3/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" afterPath="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part2.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -62,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part2.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="part2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="128" selection-start="3525" selection-end="3525" vertical-scroll-proportion="-13.730769" vertical-offset="1462" max-vertical-offset="3655">
+            <state line="92" column="9" selection-start="3605" selection-end="3605" vertical-scroll-proportion="0.67460316" vertical-offset="1224" max-vertical-offset="3757">
               <folding>
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
@@ -101,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/Index3/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="135" selection-start="6574" selection-end="6574" vertical-scroll-proportion="0.38273922" vertical-offset="1479" max-vertical-offset="2924">
+            <state line="99" column="135" selection-start="6574" selection-end="6574" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2924">
               <folding>
                 <marker date="1386783919000" expanded="true" signature="900:924" placeholder="{...}" />
               </folding>
@@ -115,7 +116,7 @@
       <file leaf-file-name="IndexAction.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="46" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="714">
+            <state line="27" column="0" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-9.692307" vertical-offset="207" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -149,13 +150,13 @@
         <option value="$PROJECT_DIR$/index/Lib/Widget/Topic2Widget.class.php" />
         <option value="$PROJECT_DIR$/app/Common/functions.php" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part3.html" />
-        <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
-        <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
         <option value="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" />
         <option value="$PROJECT_DIR$/Public/admin/dwz/themes/default/style.css" />
         <option value="$PROJECT_DIR$/admin/Tpl/Public/menu.html" />
         <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html" />
         <option value="$PROJECT_DIR$/Public/Index3/css/style.css" />
+        <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
+        <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
       </list>
     </option>
   </component>
@@ -774,7 +775,11 @@
       <created>1386783365044</created>
       <updated>1386783365044</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="更改文字对齐方式">
+      <created>1386783954474</created>
+      <updated>1386783954474</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -802,12 +807,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25561097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2593516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.74438906" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.7406484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -850,7 +855,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更换必应图片" />
     <MESSAGE value="更改名字" />
     <MESSAGE value="首页大改版" />
     <MESSAGE value="更新第二阶段页面 内容" />
@@ -875,7 +879,8 @@
     <MESSAGE value="样式改回来了又" />
     <MESSAGE value="再次向胜利迈进" />
     <MESSAGE value="22" />
-    <option name="LAST_COMMIT_MESSAGE" value="22" />
+    <MESSAGE value="更改文字对齐方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改文字对齐方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -935,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="46" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/Tpl/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="8.5" vertical-offset="221" max-vertical-offset="2346">
@@ -963,16 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="128" selection-start="3525" selection-end="3525" vertical-scroll-proportion="-13.730769" vertical-offset="1462" max-vertical-offset="3655">
-          <folding>
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/Tpl/Public/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="32" selection-start="222" selection-end="222" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="357">
@@ -989,9 +977,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/Index3/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="135" selection-start="6574" selection-end="6574" vertical-scroll-proportion="0.38273922" vertical-offset="1479" max-vertical-offset="2924">
+        <state line="99" column="135" selection-start="6574" selection-end="6574" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2924">
           <folding>
             <marker date="1386783919000" expanded="true" signature="900:924" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-9.692307" vertical-offset="207" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="9" selection-start="3605" selection-end="3605" vertical-scroll-proportion="0.67460316" vertical-offset="1224" max-vertical-offset="3757">
+          <folding>
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
