@@ -13,7 +13,7 @@ class PhaseoneAction extends CommonAction{
         $numTotal = 0;
         $update = 0;
 
-        $q = urlencode('8不够 多1点');
+        $q = urlencode('八Windows多一点');
 
         for($i = 1; $i <= 4; $i++){
             $get = file_get_contents('http://api.weibo.com/2/search/topics.json?source=3922776172&count=50&page=' . $i . '&q=' . $q . '');
