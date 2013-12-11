@@ -16,18 +16,23 @@
     function setTab(name,cursel,n){
         for(i=1;i<=n;i++){
             var menu=document.getElementById(name+i);
+            var htm2=document.getElementById("ht_m2");
             var con=document.getElementById("con_"+name+"_"+i);
             menu.className=i==cursel?"hover":"";
             if(i==cursel)
             {
                 con.style.display=(con.style.display=="block")?"none":"block";
+                htm2.scrollTop = htm2.scrollHeight;
+
             }
             else if(i!=cursel)
             {
                 con.style.display="none";
             }
         }
+
     }
+
 
 
 $(function() {
@@ -96,7 +101,7 @@ $(function() {
     	<div class="ht_top"></div>
         <div class="ht_mid">
         	<div class="ht_m1"></div>
-            <div class="ht_m2">
+            <div class="ht_m2" id="ht_m2">
             	<ul class="tab">
                 	<li><a href="#" class="nav1"></a></li>
                     <li><a href="__URL__/part3" class="nav2"></a></li>
