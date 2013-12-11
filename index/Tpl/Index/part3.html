@@ -2,29 +2,46 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <html xmlns:wb="http://open.weibo.com/wb">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>名人8话题回顾</title>
-    <link href="__PUBLIC__/part2/css/style.css" rel="stylesheet" type="text/css" />
-    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=321965248" type="text/javascript" charset="utf-8"></script>
-    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/appClient.js" type="text/javascript" charset="utf-8"></script>
-    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/client.js" type="text/javascript"></script>
-    <script type="text/javascript" src="__PUBLIC__/part2/javascript/jquery.js"></script>
-    <script type="text/javascript">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>page1</title>
+<link href="__PUBLIC__/Index3/css/style.css" rel="stylesheet" type="text/css" />
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/Index3/javascript/jquery.js"></script>
+<script type="text/javascript">
 $(function() {
-	$("#wbShow").click(function() 
-    {      
+	$("#wbShow").click(function(event) 
+    {
+		//取消事件冒泡
+        event.stopPropagation();
+	
 		if( $("#wb").hasClass("wbhide") ) 
 		{
 			$("#wb").removeClass("wbhide"); 
-			$("#wb").animate({height:'404px'},[1000]);
+			$("#wb").animate({height:'476px'},[1000]);
 		}
 		else
 		{
 			$("#wb").animate({height:'0px'},[1000]);
 			$("#wb").addClass("wbhide"); 
 		}
-          
+        
     }); 
+	
+	$("document").bind("click", function(){
+			$("#wb").animate({height:'0px'},[1000]);
+             $("#wb").addClass("wbhide"); 
+            });
+    $("#wb").bind('mouseover', function(){
+                //alert("鼠标移上");
+             $(document).unbind("click");
+            });
+    $("#wb").bind('mouseout', function(){
+              // alert("鼠标移除");
+            $(document).bind("click", function(){
+				$("#wb").animate({height:'0px'},[1000]);
+                $("#wb").addClass("wbhide"); 
+               });
+           });
 	
 	/*8按钮聚光灯效果*/
 	$(".floorMain").find("a").each(function() {
@@ -43,31 +60,32 @@ $(function() {
 <body>
 <div class="contain">
 	<div class="header">
-    <a href="#"><img src="__PUBLIC__/part2/images/logo.jpg" width="152" height="34" border="0" /></a>
+    <a href="#"><img src="__PUBLIC__/Index3/images/logo.jpg" width="152" height="34" border="0" /></a>
     </div>
     <div class="banner">
     	<div class="bannerleft"></div>
         <div class="bannerright"></div>
     </div>
-    <a name="anchor"></a>
+
     <div class="huatibox">
     	<div class="ht_top"></div>
         <div class="ht_mid">
         	<div class="ht_m1"></div>
-            <div class="ht_m2">
+            <div class="ht_m2 ht_m21">
             	<ul class="tab">
-                	<li><a href="__ROOT__/index/part2">八Windows多一点</a></li>
-                    <li class="choice"><a href="#">名人8话题回顾</a></li>
+                	<li><a href="__URL__/part2" class="nav3"></a></li>
+                    <li><a href="#" class="nav4"></a></li>
                 </ul>
+				<div class="clear"></div>
             	<div class="toutiao">
                 	<dl>
-                    	<dt>8话题之<-{$result.title}-></dt>
+                    	<dt>8话题之各种新奇节日的风生水起</dt>
                         <dd class="d_left">
-                        	<a href="http://weibo.com/u/<-{$result.uid}->"><img src="<-{$result.host_image}->" /></a>
-                            <div><span class="fr"><-{$result.host_name}-></span><span class="fl">主讲人</span></div>
+                        	<a href="#"><img src="__UPLOAD__/img_w1.jpg" /></a>
+                            <div><span class="fr">苏芩</span><span class="fl">主讲人</span></div>
                         </dd>
                         <dd class="d_right">
-                            <-{$result.content}->
+                        说起过节，大家的兴奋点应该只会放在放假上了，过节几乎已经失去了节日本身的意义，不过在网络上，大家却创造了许多新的节日，并且过的热热闹闹，风生水起，像是11.11光棍节，10.10萌节，8.18八卦节，5.20我爱你情人节...也许比起传统节日，这些搞怪的节日更能满足现代人的心理，在一个特定的日子，抒发现代人特有的感慨。
                         </dd>
                     </dl> <div class="clear"></div>
                 </div>
@@ -77,32 +95,35 @@ $(function() {
                     	<dt>
                         	1点点评
                         </dt>
-                        <volist name="result.comment" id="rc">
                         <dd>
-                        	<a href="http://weibo.com/u/<-{$rc.uid}->"><img src="<-{$rc.user_image}->" /></a>
+                        	<a href="#"><img src="__UPLOAD__/img_w3.jpg" /></a>
                             <div>
-                            <h2><-{$rc.user_name}->：</h2>
-                            <p><-{$rc.content}-></p>
+                            <h2>暖小团：</h2>
+                            <p>点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评</p>
                             </div>
                         </dd>
-                        </volist>
-                        <div class="clear"></div>
+                        <dd>
+                        	<a href="#"><img src="__UPLOAD__/img_w4.jpg" /></a>
+                            <div>
+                            <h2>Mike_D：</h2>
+                            <p>点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评点点评</p>
+                            </div>
+                        </dd><div class="clear"></div>
                     </dl> 
                 </div>
                
                 <div class="btn_ht">
                 	<ul>
-                        <volist name="list" id="l">
-                    	<li class="<-{$l.color}->"><a href="__ACTION__/tid/<-{$key}->#anchor">#<-{$l.title}->#</a></li>
-                        </volist>
+                    	<li class="jv"><a href="#">8话题之各种新奇节日的风生水起</a></li>
+                        <li class="lv"><a href="#">8话题之各种新奇节日的风生水起</a></li>
+                        <li class="zi"><a href="#">8话题之各种新奇节日的风生水起</a></li>
                     </ul>
                 </div>
             </div>
             <div class="ht_m3">
-                <div class="biying">
-                	<a href="javascript:void(0);" id="wbShow">看看大家怎么说</a>
-                </div>
-                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" appkey="321965248" topic="<-{$result.title}->|<-{$result.title}->" width="auto" height="430" member="n" refer="n" ></wb:livestream></div>
+            	<div class="biying"></div>
+                <div class="search"><a href="javascript:void(0);" id="wbShow"><img src="__PUBLIC__/Index3/images/search.jpg"/></a></div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" titlebar="n" width="294" listid="485751195" uid="1052981072" height="476" ></wb:livestream></div>
             </div>
             <div class="ht_m4"></div>
         </div>
@@ -112,14 +133,14 @@ $(function() {
 
     <div class="ninebox">
            <div class="floorMain">
-                <a href="#" class="item1"><img src="__PUBLIC__/part2/images/n1.jpg"><div class="mask"></div></a>
-                <a href="#" class="item2"><img src="__PUBLIC__/part2/images/n2.jpg"><div class="mask"></div></a>
-                <a href="#" class="item3"><img src="__PUBLIC__/part2/images/n3.jpg"><div class="mask"></div></a>
-                <a href="#" class="item4"><img src="__PUBLIC__/part2/images/n4.jpg"><div class="mask"></div></a>
-                <a href="#" class="item5"><img src="__PUBLIC__/part2/images/n5.jpg"><div class="mask"></div></a>
-                <a href="#" class="item6"><img src="__PUBLIC__/part2/images/n6.jpg"><div class="mask"></div></a>
-                <a href="#" class="item7"><img src="__PUBLIC__/part2/images/n7.jpg"><div class="mask"></div></a>
-                <a href="#" class="item8"><img src="__PUBLIC__/part2/images/n8.jpg"><div class="mask"></div></a>
+                <a href="#" class="item1"><img src="__PUBLIC__/Index3/images/n1.jpg"><div class="mask"></div></a>
+                <a href="#" class="item2"><img src="__PUBLIC__/Index3/images/n2.jpg"><div class="mask"></div></a>
+                <a href="#" class="item3"><img src="__PUBLIC__/Index3/images/n3.jpg"><div class="mask"></div></a>
+                <a href="#" class="item4"><img src="__PUBLIC__/Index3/images/n4.jpg"><div class="mask"></div></a>
+                <a href="#" class="item5"><img src="__PUBLIC__/Index3/images/n5.jpg"><div class="mask"></div></a>
+                <a href="#" class="item6"><img src="__PUBLIC__/Index3/images/n6.jpg"><div class="mask"></div></a>
+                <a href="#" class="item7"><img src="__PUBLIC__/Index3/images/n7.jpg"><div class="mask"></div></a>
+                <a href="#" class="item8"><img src="__PUBLIC__/Index3/images/n8.jpg"><div class="mask"></div></a>
           </div>
     </div>
 </div>

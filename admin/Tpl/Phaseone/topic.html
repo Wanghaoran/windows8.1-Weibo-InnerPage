@@ -1,0 +1,64 @@
+<form id="pagerForm" action="__ACTION__" method="post">
+  <input type="hidden" name="pageNum" value="<-{$currentPage}->"/>
+</form>
+
+<div class="pageHeader">
+	<form rel="pagerForm" onsubmit="return navTabSearch(this);" action="__ACTION__" method="post">
+	<div class="searchBar">
+		<h1 style=height:100%;font-size:1.3em;">注:系统每隔10分钟会自动获取相关微博数据,管理员也可以手动点击下方"获取数据"按钮</h1>
+	
+		<div class="subBar">
+			<ul>
+				<h2 style="color:red;margin-right:100px;">自动获取功能尚未开启，如需要开启，请在QQ上联系我</h2>
+			</ul>
+		</div>
+	</div>
+	</form>
+</div>
+
+<div class="pageContent">
+	<div class="panelBar">
+	  <ul class="toolBar">
+	    <li class=""><a class="add" href="__APP__/Phaseone/getshare/navTabId/phaseone_topic" target="ajaxTodo"><span>获取数据</span></a></li>
+	    <li class=""><a class="delete" href="__APP__/Phaseone/delshare/navTabId/phaseone_topic" posttype="string" rel="ids" target="selectedTodo" title="确实要删除这些记录吗?" warn="请选择记录"><span>删除</span></a></li>
+		</ul>
+	</div>
+
+	<table class="table" width="100%" layoutH="138">
+		<thead>
+		  <tr>
+		     <th width="5"><div title="" class="gridCol"><input type="checkbox" class="checkboxCtrl" group="ids"></div></th>
+			<th width="20">操作</th>
+              <th width="40">微博ID</th>
+              <th width="40">转发</th>
+			<th width="70">发布用户</th>
+			<th width="60">发布时间</th>
+			<th width="270">发布内容</th>
+		</tr>
+		</thead>
+		<tbody>
+		<volist name="result" id="r">
+		<tr target="sid_role" rel="<-{$r.weiboId}->">
+		  <td><input type="checkbox" value="<-{$r.weiboId}->" name="ids"></td>
+			  <td><a target="_balnk" href="__ROOT__/admin.php/public/viewweibo/id/<-{$r.weiboId}->/uid/<-{$r.uid}->" style="color:blue;">查看</a></td>
+            <td><-{$r.weiboId}-></td>
+            <td><-{$r.reposts_count}-></td>
+			  <td><-{$r.user_screen_name}-></td>
+			  <td><-{$r.created_at|date="Y-m-d H:i:s", ###}-></td>
+			  <td><-{$r.content}-></td>
+			</tr>
+		</volist>
+		</tbody>
+	</table>
+	<div class="panelBar">
+	  
+	  
+		<div class="pages">
+		  <span>共<-{$count}->条</span>
+		</div>
+		<div class="pagination" targetType="navTab" totalCount="<-{$count}->" numPerPage="<-{$listRows}->" pageNumShown="10" currentPage="<-{$currentPage}->"></div>
+	</div>
+
+</div>
+
+

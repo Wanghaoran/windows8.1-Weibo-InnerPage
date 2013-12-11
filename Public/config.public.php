@@ -25,4 +25,6 @@ return array(
         '__UPLOAD__' => __ROOT__ . '/Upload',
     ),
 
+    'WB_AKEY' => '321965248',
+
 );

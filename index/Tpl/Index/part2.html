@@ -2,57 +2,66 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <html xmlns:wb="http://open.weibo.com/wb">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>八windows多一点</title>
-    <link href="__PUBLIC__/part2/css/style.css" rel="stylesheet" type="text/css" />
-    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=321965248" type="text/javascript" charset="utf-8"></script>
-    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/appClient.js" type="text/javascript" charset="utf-8"></script>
-    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/client.js" type="text/javascript"></script>
-    <script type="text/javascript" src="__PUBLIC__/part2/javascript/jquery.js"></script>
-    <script type="text/javascript">
-	   jQuery.focusblur = function(focusid) {
-	   var focusblurid = $(focusid);
-	   var defval = focusblurid.val();
-			   focusblurid.focus(function(){
-			   var thisval = $(this).val();
-			   $(this).removeClass("input_selected1");
-			   $(this).addClass("input_selected2");
-			   if(thisval==defval){
-			   $(this).val("");
-		   }
-	   });
-	   focusblurid.blur(function(){
-	   var thisval = $(this).val();
-	   if(thisval==""){
-			   $(this).val(defval);
-			   $(this).removeClass("input_selected2");
-			   $(this).addClass("input_selected1");
-		   }
-		 });
-		   
-	   };
-	   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>page1</title>
+<link href="__PUBLIC__/Index3/css/style.css" rel="stylesheet" type="text/css" />
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/Index3/javascript/jquery.js"></script>
+<script src="__PUBLIC__/Index3/javascript/MSClass.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+//点击按钮收缩展开			
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById("con_"+name+"_"+i);
+menu.className=i==cursel?"hover":"";
+if(i==cursel)
+{
+	con.style.display=(con.style.display=="none")?"block":"none";
+	}
+else if(i!=cursel)
+{
+	con.style.display="none";
+	}
+}
+}
+
 $(function() {
-		   
-	/*下面是调用search文本框方法*/
-	$.focusblur("#searchkey");
-	$.focusblur("#fabukey");
+	$("#wbShow").click(function(event) 
+    {
+		//取消事件冒泡
+        event.stopPropagation();
 	
-	/*向上弹出，向下收回*/
-	$("#wbShow").click(function() 
-    {      
 		if( $("#wb").hasClass("wbhide") ) 
 		{
 			$("#wb").removeClass("wbhide"); 
-			$("#wb").animate({height:'404px'},[1000]);
+			$("#wb").animate({height:'476px'},[1000]);
 		}
 		else
 		{
 			$("#wb").animate({height:'0px'},[1000]);
 			$("#wb").addClass("wbhide"); 
 		}
-          
+        
     }); 
+	
+	$("document").bind("click", function(){
+			$("#wb").animate({height:'0px'},[1000]);
+             $("#wb").addClass("wbhide"); 
+            });
+    $("#wb").bind('mouseover', function(){
+                //alert("鼠标移上");
+             $(document).unbind("click");
+            });
+    $("#wb").bind('mouseout', function(){
+              // alert("鼠标移除");
+            $(document).bind("click", function(){
+				$("#wb").animate({height:'0px'},[1000]);
+                $("#wb").addClass("wbhide"); 
+               });
+           });
+	
 	
 	/*8按钮聚光灯效果*/
 	$(".floorMain").find("a").each(function() {
@@ -65,25 +74,15 @@ $(function() {
 			$(this).siblings().find(".mask").fadeTo("fast",0);
 		});
 	});
+
 })
+
 </script>
-    <script>
-        var tosend = function(){
-            var status = WB2.checkLogin();
-            if(!status){
-                WB2.login(function() {
-                    alert('sss');
-                });
-            }else{
-                alert(status);
-            }
-        }
-    </script>
 </head>
 <body>
 <div class="contain">
 	<div class="header">
-    <a href="#"><img src="__PUBLIC__/part2/images/logo.jpg" width="152" height="34" border="0" /></a>
+    <a href="#"><img src="__PUBLIC__/Index3/images/logo.jpg" width="152" height="34" border="0" /></a>
     </div>
     <div class="banner">
     	<div class="bannerleft"></div>
@@ -94,53 +93,365 @@ $(function() {
     	<div class="ht_top"></div>
         <div class="ht_mid">
         	<div class="ht_m1"></div>
-            <div class="ht_m2eight">
+            <div class="ht_m2">
             	<ul class="tab">
-                	<li class="choice"><a href="#">八Windows多一点</a></li>
-                    <li><a href="__ROOT__/index/part3">名人8话题回顾</a></li>
+                	<li><a href="#" class="nav1"></a></li>
+                    <li><a href="__URL__/part3" class="nav2"></a></li>
                 </ul>
-                <div class="con_eight">
-                	<p>用过Windows系统吗？知道Windows8全新的metro风格吗？</p>
-                    <p>知道升级到Windows8.1了吗？</p>
-                    <p>Windows8.1将带给你多一点体验，多一点惊喜！</p>
-                    <p>告诉我们你对Windows8.1的好奇，就有可能获得名人的专属点评，</p>
-                    <p>更有精致礼品送给你！</p>
-                    <p>二等奖：随机抽取150名参与话题征集的网友，送上微软限量版精美贴纸；</p>
-                    <p>一等奖：最终被转发最多的4个话题提供者，将获得微软限量版精致鼠标。</p>
-                    <h2>转发感兴趣的话题，或者说出你想8的那个1点吧</h2>
-                    <div class="fabu">
-                        <span style="float: right;">最新分享：</span>
-                      <a style="display: block;color: #ffffff; background: #00C6FF;width:360px;" href="http://widget.weibo.com/dialog/PublishWeb.php?uid=1652987982&&tag=8%E4%B8%8D%E5%A4%9F%E5%A4%9A%E4%B8%80%E7%82%B9&language=zh_cn&button=pubilish" target="_blank">自定义发微博样式，点此发布微博</a>
-                    </div><!--fabu end-->
-                    <div class="squbox">
-                    	<ul class="squ squ1 mr2">
-                        	<li class="li3 color1 mb2"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
-                            <li class="li4 color2"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
+				<div class="clear"></div>
+                <div id="MarqueeDiv" style="width:430px; height:290px;overflow:hidden;">
+                <table width="430" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="145" align="center" valign="middle">
+                        <ul class="praisebox">
+                            <li class="color1">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                                
+                            </li>
+                            <li class="color2">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color3">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            
                         </ul>
-                        <ul class="squ squ1 mr2">
-                        	<li class="li3 color3 mb2"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
-                            <li class="li1 color4 mb2 mr2"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
-                            <li class="li1 color5 mb2"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
-                            <li class="li3 color6"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
+                         </td>
+                  </tr>
+                  <tr>
+                    <td height="145" align="center" valign="middle">
+                    	<ul class="praisebox">
+                            <li class="color4">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color5">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color6">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
                         </ul>
-                        <ul class="squ squ2 mr2">
-                        	<li class="li2 color7 mb2"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
-                            <li class="li1 color8"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="145" align="center" valign="middle">
+                        <ul class="praisebox">
+                            <li class="color1">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                                
+                            </li>
+                            <li class="color2">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color3">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            
                         </ul>
-                        <ul class="squ squ1 mr2">
-                        	<li class="li4 color9 mb2"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
-                            <li class="li3 color10"><wb:publish action="forward" type="web" language="zh_cn" button_type="red" button_size="small" button_text="转发" mid="Akl37wvpO" uid="1652987982" tag="8不够多1点" ></wb:publish></li>
+                         </td>
+                  </tr>
+                  <tr>
+                    <td height="145" align="center" valign="middle">
+                    	<ul class="praisebox">
+                            <li class="color4">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color5">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color6">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
                         </ul>
-                        <div class="clear"></div>
-                    </div>
-               	</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="145" align="center" valign="middle">
+                        <ul class="praisebox">
+                            <li class="color1">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                                
+                            </li>
+                            <li class="color2">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color3">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            
+                        </ul>
+                         </td>
+                  </tr>
+                  <tr>
+                    <td height="145" align="center" valign="middle">
+                    	<ul class="praisebox">
+                            <li class="color4">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color5">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                            <li class="color6">
+                                <div class="info">
+                                	美美的风景溶为一体，不分彼此。知道下面那一款相机应用具有双重曝光的功能么？
+                                    <div class="tishi">
+                                        <dt></dt>
+                                        <dd>
+                                            <a href="#"><img src="__PUBLIC__/Index3/images/img_user.jpg" /></a>
+                                            <h2>张三</h2>
+                                            <P>想当，年金戈铁马；看今朝，死缠烂打</P>
+                                        </dd>
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_praise"><a href="#">125</a></div>
+                            </li>
+                        </ul>
+                    </td>
+                  </tr>
+                  </table>
+                  </div>
+                  <script type="text/javascript">
+                /*********向上连续滚动及鼠标拖动***************/
+                new Marquee("MarqueeDiv",0,1,430,290,30,0,0)
+                </script>
+                <div class="clear10"></div>
+                <a href="#" class="btn_wybyx"></a>
+                <div class="clear10"></div>
+                <div class="btn_foot">
+                <a href="javascript:void(0);" id="one1" onclick="setTab('one',1,2);return false;">活动规则</a><a href="javascript:void(0);" id="one2" onclick="setTab('one',2,2);return false;">奖品设置</a>
+                </div>
                 <div class="clear"></div>
+                <!--弹出层-->
+                <div class="sharp" id="con_one_1">
+                    <div class="sharp_con">
+                    	<div class="sharp_row1"></div>
+                        <ul class="guize">
+                        	<li class="gz1">一等奖: 最终点赞最多的4个话题提供者，将获得微软限量版精致鼠标</li>
+                            <li class="gz2">二等奖: 最终点赞排名第5-10名的6个话题提供者，将获得微软精致双肩背包</li>
+                            <li class="gz3">三等奖: 随机抽取150名参与话题征集的网友，送上微软限量版精美冰箱贴</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sharp" id="con_one_2">
+                    	<div class="sharp_con">
+                            <div class="sharp_row2"></div>
+                            <ul class="guize">
+                                <li class="gz1">一等奖: 最终点赞最多的4个话题提供者，将获得微软限量版精致鼠标</li>
+                                <li class="gz2">二等奖: 最终点赞排名第5-10名的6个话题提供者，将获得微软精致双肩背包</li>
+                                <li class="gz3">三等奖: 随机抽取150名参与话题征集的网友，送上微软限量版精美冰箱贴</li>
+                            </ul>
+                    	</div>
+                </div>
             </div>
             <div class="ht_m3">
-                <div class="biying">
-                	<a href="javascript:void(0);" id="wbShow">通过必应搜索</a>
-                </div>
-                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" appkey="321965248" topic="8不够 多1点|8不够 多1点" width="auto" height="430" member="n" refer="n" ></wb:livestream></div>
+            	<div class="biying"></div>
+                <div class="search"><a href="javascript:void(0);" id="wbShow"><img src="__PUBLIC__/Index3/images/search.jpg"/></a></div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" titlebar="n" width="294" listid="485751195" uid="1052981072" height="476" ></wb:livestream></div>
             </div>
             <div class="ht_m4"></div>
         </div>
@@ -150,14 +461,14 @@ $(function() {
 
     <div class="ninebox">
            <div class="floorMain">
-                <a href="#" class="item1"><img src="__PUBLIC__/part2/images/n1.jpg"><div class="mask"></div></a>
-                <a href="#" class="item2"><img src="__PUBLIC__/part2/images/n2.jpg"><div class="mask"></div></a>
-                <a href="#" class="item3"><img src="__PUBLIC__/part2/images/n3.jpg"><div class="mask"></div></a>
-                <a href="#" class="item4"><img src="__PUBLIC__/part2/images/n4.jpg"><div class="mask"></div></a>
-                <a href="#" class="item5"><img src="__PUBLIC__/part2/images/n5.jpg"><div class="mask"></div></a>
-                <a href="#" class="item6"><img src="__PUBLIC__/part2/images/n6.jpg"><div class="mask"></div></a>
-                <a href="#" class="item7"><img src="__PUBLIC__/part2/images/n7.jpg"><div class="mask"></div></a>
-                <a href="#" class="item8"><img src="__PUBLIC__/part2/images/n8.jpg"><div class="mask"></div></a>
+                <a href="#" class="item1"><img src="__PUBLIC__/Index3/images/n1.jpg"><div class="mask"></div></a>
+                <a href="#" class="item2"><img src="__PUBLIC__/Index3/images/n2.jpg"><div class="mask"></div></a>
+                <a href="#" class="item3"><img src="__PUBLIC__/Index3/images/n3.jpg"><div class="mask"></div></a>
+                <a href="#" class="item4"><img src="__PUBLIC__/Index3/images/n4.jpg"><div class="mask"></div></a>
+                <a href="#" class="item5"><img src="__PUBLIC__/Index3/images/n5.jpg"><div class="mask"></div></a>
+                <a href="#" class="item6"><img src="__PUBLIC__/Index3/images/n6.jpg"><div class="mask"></div></a>
+                <a href="#" class="item7"><img src="__PUBLIC__/Index3/images/n7.jpg"><div class="mask"></div></a>
+                <a href="#" class="item8"><img src="__PUBLIC__/Index3/images/n8.jpg"><div class="mask"></div></a>
           </div>
     </div>
 </div>
