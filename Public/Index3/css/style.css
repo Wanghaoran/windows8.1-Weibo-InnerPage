@@ -43,18 +43,17 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .ht_m2 .toutiao dl dd.d_left{ float:left; width:98px; height:130px; color:#fff; font-size:16px; padding-top:10px;}
 .ht_m2 .toutiao dl dd.d_left a img{ width:98px; height:98px; border:0;}
 .ht_m2 .toutiao dl dd.d_left div{ height:32px; line-height:32px; font-weight:400; font-size:12px;}
-.ht_m2 .toutiao dl dd.d_right{ float:left; width:314px; padding-left:10px; height:140px; color:#fff; font-size:12px; line-height:20px;padding-top:10px;}
-.ht_m2 .discuss{ margin-top:5px;}
+.ht_m2 .toutiao dl dd.d_right{ float:left; width:314px; padding-left:10px; height:130px; color:#fff; font-size:12px; line-height:20px;padding-top:10px;}
 .ht_m2 .discuss dl dt{ width:425px; height:30px; line-height:30px; border-bottom:#fff 1px solid; text-align:left; font-size:20px; color:#fff; font-weight:800; margin-left:25px;}
 .ht_m2 .discuss dl dd{ width:425px; height:40px; color:#fff; margin-top:10px; margin-left:25px;}
-.ht_m2 .discuss dl dd a img{ float:left; width:40px; height:40px; border:0; margin-right:10px;}
-.ht_m2 .discuss dl dd div{ float:left; width:370px; height:40px; }
+.ht_m2 .discuss dl dd a img{ float:left; width:50px; height:50px; border:0;  margin-top:5px; margin-right:10px;}
+.ht_m2 .discuss dl dd div{ float:left; width:350px; height:50px; margin-top:5px;}
 .ht_m2 .discuss dl dd div h2{ height:20px; line-height:20px; text-align:left; font-size:14px; font-weight:400;}
 .ht_m2 .discuss dl dd div h2 .yellow-v{background:url(../images/yellow-v.png) right center no-repeat; padding-right:18px;}
-.ht_m2 .discuss dl dd div p{ height:15px; width:380px; overflow:hidden; line-height:15px; font-size:12px; padding-top:5px;}
+.ht_m2 .discuss dl dd div p{ height:30px; width:350px; overflow:hidden; line-height:15px; font-size:12px;}
 .ht_m2 .btn_ht{ width:425px; margin:10px 0 0 25px;}
 .ht_m2 .btn_ht ul li{ float:left; width:134px; line-height:28px; margin-right:7px;margin-bottom:5px; color:#fff; font-size:12px; text-align:center; font-weight:400;}
-.ht_m2 .btn_ht ul li a{ width:114px; display:inline-block; color:#fff; text-decoration:none; padding:20px 10px; line-height:20px; text-align:center; vertical-align:middle; font-size:14px;}
+.ht_m2 .btn_ht ul li a{ width:114px; display:inline-block; color:#fff; text-decoration:none; padding:15px 10px; line-height:20px; text-align:center; vertical-align:middle; font-size:14px;}
 .ht_m2 .btn_ht ul li.jv{ background:#d90073;}
 .ht_m2 .btn_ht ul li.jv a:hover{ background:#e6218a;}
 .ht_m2 .btn_ht ul li.lv{ background:#f1a30b; }
