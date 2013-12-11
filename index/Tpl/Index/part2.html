@@ -119,7 +119,11 @@ $(function() {
                             <li class="color<-{$i|outputnum}->">
                                 <div class="info">
                                 	<-{$r.content}->
-                                    <div class="tishi">
+                                    <eq name="mod" value="2">
+                                    <div class="tishi ts2">
+                                    <else/>
+                                     <div class="tishi">
+                                     </eq>
                                         <dt></dt>
                                         <dd>
                                             <a href="#"><img src="<-{$r.user_profile_image_url}->" /></a>

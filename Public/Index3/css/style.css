@@ -40,19 +40,21 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .ht_m21{ background:url(../images/htimg2.jpg) no-repeat;}
 .ht_m2 .toutiao{ width:425px; padding-left:15px;}
 .ht_m2 .toutiao dl dt{ width:425px; height:30px; line-height:30px; font-size:20px; font-weight:800; color:#fff;}
-.ht_m2 .toutiao dl dd.d_left{ float:left; width:98px; height:130px; color:#fff; font-size:16px; padding-top:5px;}
+.ht_m2 .toutiao dl dd.d_left{ float:left; width:98px; height:130px; color:#fff; font-size:16px; padding-top:10px;}
 .ht_m2 .toutiao dl dd.d_left a img{ width:98px; height:98px; border:0;}
 .ht_m2 .toutiao dl dd.d_left div{ height:32px; line-height:32px; font-weight:400; font-size:12px;}
-.ht_m2 .toutiao dl dd.d_right{ float:left; width:314px; padding-left:10px; height:120px; color:#fff; font-size:12px; line-height:20px;}
+.ht_m2 .toutiao dl dd.d_right{ float:left; width:314px; padding-left:10px; height:140px; color:#fff; font-size:12px; line-height:20px;padding-top:10px;}
+.ht_m2 .discuss{ margin-top:5px;}
 .ht_m2 .discuss dl dt{ width:425px; height:30px; line-height:30px; border-bottom:#fff 1px solid; text-align:left; font-size:20px; color:#fff; font-weight:800; margin-left:25px;}
 .ht_m2 .discuss dl dd{ width:425px; height:40px; color:#fff; margin-top:10px; margin-left:25px;}
 .ht_m2 .discuss dl dd a img{ float:left; width:40px; height:40px; border:0; margin-right:10px;}
 .ht_m2 .discuss dl dd div{ float:left; width:370px; height:40px; }
 .ht_m2 .discuss dl dd div h2{ height:20px; line-height:20px; text-align:left; font-size:14px; font-weight:400;}
+.ht_m2 .discuss dl dd div h2 .yellow-v{background:url(../images/yellow-v.png) right center no-repeat; padding-right:18px;}
 .ht_m2 .discuss dl dd div p{ height:15px; width:380px; overflow:hidden; line-height:15px; font-size:12px; padding-top:5px;}
-.ht_m2 .btn_ht{ width:425px; height:100px; margin:10px 0 0 25px;}
-.ht_m2 .btn_ht ul li{ float:left; width:134px; height:100px; line-height:28px; margin-right:7px;margin-bottom:5px; color:#fff; font-size:12px; text-align:center; font-weight:400;}
-.ht_m2 .btn_ht ul li a{ width:114px; height:60px; display:inline-block; color:#fff; text-decoration:none; padding:20px 10px; line-height:20px; text-align:center; vertical-align:middle; font-size:14px;}
+.ht_m2 .btn_ht{ width:425px; margin:10px 0 0 25px;}
+.ht_m2 .btn_ht ul li{ float:left; width:134px; line-height:28px; margin-right:7px;margin-bottom:5px; color:#fff; font-size:12px; text-align:center; font-weight:400;}
+.ht_m2 .btn_ht ul li a{ width:114px; display:inline-block; color:#fff; text-decoration:none; padding:20px 10px; line-height:20px; text-align:center; vertical-align:middle; font-size:14px;}
 .ht_m2 .btn_ht ul li.jv{ background:#d90073;}
 .ht_m2 .btn_ht ul li.jv a:hover{ background:#e6218a;}
 .ht_m2 .btn_ht ul li.lv{ background:#f1a30b; }
@@ -99,12 +101,13 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .praisebox li div.info{ width:115px; height:95px; line-height:19px; font-size:14px; font-weight:400; overflow:hidden;}
 .praisebox li div.btn_praise{ float:right;}
 .praisebox li div.btn_praise a{ background:url(../images/praise.png) left center no-repeat; padding-left:22px; height:25px; line-height:25px; font-size:22px; font-weight:600; display:block; color:#fff; text-decoration:none;}
-.praisebox li div.info div.tishi{ display:none; position:absolute; width:160px; height:50px; padding:5px; background:#fff; z-index:999; top:50px; left:-10px}
+.praisebox li div.info div.tishi{ display:none; position:absolute; width:160px; height:50px; padding:5px; background:#fff; top:50px; left:-10px; z-index:9999;}
+.praisebox li div.info div.ts2{  left:-38px;}
 .praisebox li div.info div.tishi dt{ position:absolute; top:-10px; right:60px;border-left:10px solid transparent; border-right:10px solid transparent; border-bottom:10px solid #fff; width:0; height:0;}
-.praisebox li div.info div.tishi dd{ color:#333; }
+.praisebox li div.info div.tishi dd{ color:#333;font-size:12px; text-align:left;}
 .praisebox li div.info div.tishi dd a img{ width:50px; height:50px; margin:0 5px 0 0; border:0; float:left;}
-.praisebox li div.info div.tishi dd h2{ font-size:14px; height:20px;}
-.praisebox li div.info div.tishi dd p{ line-height:15px;width:100px; height:30px; overflow:hidden;}
+.praisebox li div.info div.tishi dd h2{float:left;  height:20px;}
+.praisebox li div.info div.tishi dd p{float:left; line-height:15px;width:100px; height:30px; overflow:hidden;}
 .praisebox li div.info:hover div.tishi{ display:block;}
 
 .praisebox li.color1{ background:#d90073;}
