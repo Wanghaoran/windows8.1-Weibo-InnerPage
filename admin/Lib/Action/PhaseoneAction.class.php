@@ -32,6 +32,7 @@ class PhaseoneAction extends CommonAction{
                     $data['reposts_count'] = $value['reposts_count'];
                     $data['uid'] = $value['user']['idstr'];
                     $data['mid'] = $value['mid'];
+                    $data['isshow'] = 1;
                     if($WeiboShareList -> add($data)){
                         $numTotal ++;
                     }else{
