@@ -126,7 +126,7 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .sharp_row2{ background:url(../images/icon_row.png) no-repeat; width:13px; height:12px; position:absolute; top:-12px; right:90px;}
 
 ul.huodong{ margin:10px 20px 0 20px; width:370px;}
-ul.huodong li{ width:370px; text-align:left; color:#fff; height:38px; line-height:19px; margin-bottom:10px;}
+ul.huodong li{ width:370px; text-align:left; color:#fff; line-height:19px; margin-bottom:10px;}
 
 ul.guize{ margin:10px 20px 0 20px; width:370px;}
 ul.guize li{ width:320px; padding-left:50px; text-align:left; color:#fff; height:38px; line-height:19px; background:url(../images/guize.png) no-repeat; margin-bottom:10px;}
