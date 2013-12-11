@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index3/css/style.css" afterPath="$PROJECT_DIR$/Public/Index3/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part2.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part2.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="part2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="12" selection-start="2886" selection-end="2886" vertical-scroll-proportion="-9.153846" vertical-offset="1292" max-vertical-offset="3774">
+            <state line="88" column="12" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.50595236" vertical-offset="1241" max-vertical-offset="3774">
               <folding>
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
@@ -101,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/Index3/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="80" selection-start="6519" selection-end="6519" vertical-scroll-proportion="0.23168316" vertical-offset="1566" max-vertical-offset="2924">
+            <state line="99" column="80" selection-start="6519" selection-end="6519" vertical-scroll-proportion="-67.32" vertical-offset="0" max-vertical-offset="2924">
               <folding>
                 <marker date="1386786235000" expanded="true" signature="900:924" placeholder="{...}" />
               </folding>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/admin/Tpl/Public/menu.html" />
         <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html" />
         <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
-        <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
         <option value="$PROJECT_DIR$/Public/Index3/css/style.css" />
+        <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
       </list>
     </option>
   </component>
@@ -786,7 +786,11 @@
       <created>1386786116113</created>
       <updated>1386786116113</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="缩小字体">
+      <created>1386786304346</created>
+      <updated>1386786304346</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -862,7 +866,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="首页大改版" />
     <MESSAGE value="更新第二阶段页面 内容" />
     <MESSAGE value="更新必应图片" />
     <MESSAGE value="删除张亮的评论" />
@@ -887,7 +890,8 @@
     <MESSAGE value="22" />
     <MESSAGE value="更改文字对齐方式" />
     <MESSAGE value="应该可以了吧～" />
-    <option name="LAST_COMMIT_MESSAGE" value="应该可以了吧～" />
+    <MESSAGE value="缩小字体" />
+    <option name="LAST_COMMIT_MESSAGE" value="缩小字体" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -991,21 +995,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
+    <entry file="file://$PROJECT_DIR$/Public/Index3/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="12" selection-start="2886" selection-end="2886" vertical-scroll-proportion="-9.153846" vertical-offset="1292" max-vertical-offset="3774">
+        <state line="99" column="80" selection-start="6519" selection-end="6519" vertical-scroll-proportion="-67.32" vertical-offset="0" max-vertical-offset="2924">
           <folding>
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1386786235000" expanded="true" signature="900:924" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Index3/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="80" selection-start="6519" selection-end="6519" vertical-scroll-proportion="0.23168316" vertical-offset="1566" max-vertical-offset="2924">
+        <state line="88" column="12" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.50595236" vertical-offset="1241" max-vertical-offset="3774">
           <folding>
-            <marker date="1386786235000" expanded="true" signature="900:924" placeholder="{...}" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
