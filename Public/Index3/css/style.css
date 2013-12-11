@@ -96,8 +96,8 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .tab li a.nav4{ width:166px; background:url(../images/btn_mrb.png) top right no-repeat;}
 
 .praisebox{ margin-left:10px;}
-.praisebox li{ float:left; width:415px; height:76px; margin:10px 0 0 5px; padding:10px 0 0 0; color:#fff; position:relative;}
-.praisebox li div.info{ width:390px; height:48px; line-height:16px; font-size:12px; font-weight:400; overflow:hidden;}
+.praisebox li{ float:left; width:115px; height:125px; margin:10px 0 0 5px; padding:10px 10px 0 10px; color:#fff; position:relative;}
+.praisebox li div.info{ width:115px; height:95px; line-height:19px; font-size:12px; font-weight:400; overflow:hidden;}
 .praisebox li div.btn_praise{ float:right;}
 .praisebox li div.btn_praise a{ background:url(../images/praise.png) left center no-repeat; padding-left:22px; height:25px; line-height:25px; font-size:22px; font-weight:600; display:block; color:#fff; text-decoration:none;}
 .praisebox li div.info div.tishi{ display:none; position:absolute; width:160px; height:50px; padding:5px; background:#fff; top:50px; left:-10px; z-index:9999;}
