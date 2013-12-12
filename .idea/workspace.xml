@@ -821,7 +821,11 @@
       <created>1386818659696</created>
       <updated>1386818659696</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="增加统计i 代码">
+      <created>1386819155783</created>
+      <updated>1386819155783</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -897,7 +901,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更改产品图片" />
     <MESSAGE value="更改必应图片" />
     <MESSAGE value="更改搜索图片" />
     <MESSAGE value="更新 必应图片  和  话题" />
@@ -922,7 +925,8 @@
     <MESSAGE value="更新必应图片" />
     <MESSAGE value="更改页面" />
     <MESSAGE value="更改样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改样式" />
+    <MESSAGE value="增加统计i 代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加统计i 代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
