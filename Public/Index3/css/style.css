@@ -100,7 +100,7 @@ a:active{noOutline:expression(this.onFocus=this.blur());}
 .praisebox li div.info{ width:115px; height:95px; line-height:19px; font-size:10px; font-weight:400; overflow:hidden; text-align: left;}
 .praisebox li div.btn_praise{ float:right;}
 .praisebox li div.btn_praise a{ background:url(../images/praise.png) left center no-repeat; padding-left:22px; height:25px; line-height:25px; font-size:22px; font-weight:600; display:block; color:#fff; text-decoration:none;}
-.praisebox li div.info div.tishi{ display:none; position:absolute; width:200px; height:auto; padding:5px; background:#fff; bottom:50px; left:-10px; z-index:9999;}
+.praisebox li div.info div.tishi{ display:none; position:absolute; width:200px; height:auto; padding:5px; background:#fff; bottom:15px; left:-10px; z-index:9999;}
 .praisebox li div.info div.ts2{ left:-88px;}
 .praisebox li div.info div.tishi dt{ position:absolute; bottom:-10px; left:60px;border-left:10px solid transparent; border-right:10px solid transparent; border-top:10px solid #fff; width:0; height:0;}
 .praisebox li div.info div.ts2 dt{left:120px;}
@@ -172,4 +172,4 @@ ul.squ2{ width:60px;}
 .mb2{ margin-bottom:2px;}
 
 .btn_qbzjht{ text-align:center;}
-.btn_qbzjht a{ font-size:20px; font-weight:bold; text-decoration:none; color:#e5292a;}
+.btn_qbzjht a{ font-size:16px; font-weight:bold; text-decoration:none; color:#fff;}

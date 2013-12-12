@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part2.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index3/css/style.css" afterPath="$PROJECT_DIR$/Public/Index3/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -106,7 +105,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="107" column="80" selection-start="7462" selection-end="7462" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="3060">
               <folding>
-                <marker date="1386817257000" expanded="true" signature="900:924" placeholder="{...}" />
+                <marker date="1386818609000" expanded="true" signature="900:924" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -810,7 +809,11 @@
       <created>1386812581303</created>
       <updated>1386812581304</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="更改页面">
+      <created>1386817471948</created>
+      <updated>1386817471949</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -896,7 +899,6 @@
     <MESSAGE value="制作第二阶段活动页面" />
     <MESSAGE value="完成第二阶段页面制作" />
     <MESSAGE value="更改下拉 BUG" />
-    <MESSAGE value="更改页面" />
     <MESSAGE value="更改预支文字" />
     <MESSAGE value="更新页面" />
     <MESSAGE value="更改遗留问题" />
@@ -911,7 +913,8 @@
     <MESSAGE value="调试完成！" />
     <MESSAGE value="更新点赞功能" />
     <MESSAGE value="更新必应图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新必应图片" />
+    <MESSAGE value="更改页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,7 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="80" selection-start="7462" selection-end="7462" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="3060">
           <folding>
-            <marker date="1386817257000" expanded="true" signature="900:924" placeholder="{...}" />
+            <marker date="1386818609000" expanded="true" signature="900:924" placeholder="{...}" />
           </folding>
         </state>
       </provider>
