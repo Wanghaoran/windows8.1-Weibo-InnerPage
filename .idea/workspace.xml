@@ -736,7 +736,11 @@
       <created>1386821976177</created>
       <updated>1386821976177</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="第二阶段页面上线">
+      <created>1386822629624</created>
+      <updated>1386822629624</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -812,7 +816,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更改搜索图片" />
     <MESSAGE value="更新 必应图片  和  话题" />
     <MESSAGE value="更改话题读取" />
     <MESSAGE value="更新话题  和 必应图片" />
@@ -837,7 +840,8 @@
     <MESSAGE value="更改样式" />
     <MESSAGE value="增加统计i 代码" />
     <MESSAGE value="更改文字" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改文字" />
+    <MESSAGE value="第二阶段页面上线" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二阶段页面上线" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
