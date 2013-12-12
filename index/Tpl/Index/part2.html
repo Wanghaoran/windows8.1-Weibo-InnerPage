@@ -116,7 +116,6 @@ $(function() {
             	<ul class="tab">
                 	<li><a href="#" class="nav1"></a></li>
                     <li><a href="__URL__/part3" class="nav2"></a></li>
-                    <li style="margin: 8px 0 0 0;"><a href="http://huati.weibo.com/k/%E5%85%ABWindows%E5%A4%9A%E4%B8%80%E7%82%B9" target="_blank" style="color: #ffffff;">查看全部话题</a></li>
                 </ul>
 				<div class="clear"></div>
                 <div id="MarqueeDiv" style="width:430px; height:290px;overflow:hidden;">
@@ -139,8 +138,8 @@ $(function() {
                                         <dt></dt>
                                         <dd>
                                             <a href="http://weibo.com/u/<-{$r.uid}->" target="_blank"><img src="<-{$r.user_profile_image_url}->" /></a>
-                                            <h2><-{$r.user_screen_name}-></h2>
-                                            <P><-{$r.user_description}-></P>
+                                            <h2><a href="http://weibo.com/u/<-{$r.uid}->" target="_blank"><-{$r.user_screen_name}-></a></h2>
+                                            <P><a href="__ROOT__/admin.php/public/viewweibo/id/<-{$r.weiboId}->/uid/<-{$r.uid}->" target="_blank"><-{$r.content}-></a></P>
                                         </dd>
                                         
                                     </div>
@@ -161,7 +160,11 @@ $(function() {
                 /*********向上连续滚动及鼠标拖动***************/
                 new Marquee("MarqueeDiv",0,1,430,290,30,0,0)
                 </script>
-                <div class="clear10"></div>
+            <div class="clear"></div>
+        <div class="btn_qbzjht"><a style="font-size: 16px;color: #ffffff;" href="http://huati.weibo.com/k/%E5%85%ABWindows%E5%A4%9A%E4%B8%80%E7%82%B9" target="_blank">全部征集话题</a></div>
+        <div class="clear"></div>
+
+        <div class="clear5"></div>
                 <a href="http://widget.weibo.com/dialog/PublishWeb.php?app_src=w8ffy&default_text=%23%E5%85%ABWindows%E5%A4%9A%E4%B8%80%E7%82%B9%23+http%3A%2F%2Ft.cn%2F8kqsEtQ&language=zh_cn&button=pubilish&app" class="btn_wybyx" target="_blank"></a>
                 <div class="clear10"></div>
                 <div class="btn_foot">
@@ -177,7 +180,7 @@ $(function() {
                             <li class="gz1">知道Windows8全新的modern风格吗？</li>
                             <li class="gz1">知道升级到Windows8.1了吗？</li>
                             <li class="gz1">Windows8.1将带给你多1点体验，多1点惊喜！</li>
-                            <li class="gz1">发布话题告诉我们你对Windows8.1的好奇，就有可能获得名人专属视频点评，给你感兴趣的话题点赞，更有精致礼品送给你！</li>
+                            <li class="gz1">发布话题告诉我们你对Windows8.1的了解，期待你多一点的态度，多一点的思索。话题点赞量高的参与者将获得微软准备的精致奖品，更有名人为你拍摄专属视频。给你感兴趣的话题点赞，也会有精致礼品送出哦！</li>
                         </ul>
                     </div>
                 </div>
