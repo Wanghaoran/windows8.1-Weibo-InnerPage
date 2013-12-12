@@ -173,4 +173,48 @@ class PublicAction extends Action {
     redirect('http://api.weibo.com/2/statuses/go?source=' . $app_key . '&uid=' . $uid . '&id=' . $id);
 
   }
+
+    public function getshare(){
+        $WeiboShareList = M('WeiboShareList');
+        $numTotal = 0;
+        $update = 0;
+
+        $q = urlencode('八Windows多一点');
+
+        for($i = 1; $i <= 4; $i++){
+            $get = file_get_contents('http://api.weibo.com/2/search/topics.json?source=3922776172&count=50&page=' . $i . '&q=' . $q . '');
+            $data_arr = json_decode($get, true);
+            if($data_arr['total_number'] != 0){
+                foreach($data_arr['statuses'] as $value){
+                    $data = array();
+                    $data['weiboId'] = $value['idstr'];
+                    $data['content'] = $value['text'];
+                    $data['thumbnail_pic'] = $value['thumbnail_pic'];
+                    $data['original_pic'] = $value['original_pic'];
+                    $data['created_at'] = strtotime($value['created_at']);
+                    $data['user_profile_image_url'] = $value['user']['profile_image_url'];
+                    $data['user_screen_name'] = $value['user']['screen_name'];
+                    $data['user_description'] = $value['user']['description'];
+                    $data['reposts_count'] = $value['reposts_count'];
+                    $data['uid'] = $value['user']['idstr'];
+                    $data['mid'] = $value['mid'];
+                    $data['isshow'] = 1;
+                    if($WeiboShareList -> add($data)){
+                        $numTotal ++;
+                    }else{
+                        $update_data = array();
+                        $update_data['weiboId'] = $value['idstr'];
+                        $update_data['reposts_count'] = $value['reposts_count'];
+                        $update += $WeiboShareList -> save($update_data);
+                    }
+                    usleep(1000);
+                }
+            }else{
+                break;
+            }
+            usleep(10000);
+        }
+
+        echo '采集：' . $numTotal . '-----更新:' . $update;
+    }
 }
