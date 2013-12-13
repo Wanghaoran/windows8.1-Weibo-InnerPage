@@ -215,6 +215,6 @@ class PublicAction extends Action {
             usleep(10000);
         }
 
-        echo '采集：' . $numTotal . '-----更新:' . $update . '更新时间：' . date('Y-m-d H:i:s');
+        echo '采集：' . $numTotal . '-----更新:' . $update . '更新时间：' . date('Y-m-d H:i:s') . '\r\n';
     }
 }
