@@ -64,7 +64,24 @@ class PhaseoneAction extends CommonAction{
         }else{
             $this -> error(L('DATA_DELETE_ERROR'));
         }
+    }
 
+    public function editshare(){
+        $WeiboShareList = M('WeiboShareList');
+        if(!empty($_POST['zannum'])){
+            if(!$WeiboShareList -> create()){
+                $this -> error($WeiboShareList -> getError());
+            }
+            if($WeiboShareList -> save()){
+                $this -> success(L('DATA_UPDATE_SUCCESS'));
+            }else{
+                $this -> error(L('DATA_UPDATE_ERROR'));
+            }
+        }
+
+        $result = $WeiboShareList -> field('zannum') -> find($_GET['id']);
+        $this -> assign('result', $result);
+        $this -> display();
     }
 
     public function checkshow(){
