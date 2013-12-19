@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="更改必应图片">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index3/javascript/MSClass2.85.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part2.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
+    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index3/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index3/images/htbg22.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -39,7 +38,7 @@
       <file leaf-file-name="part2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="53" selection-start="908" selection-end="908" vertical-scroll-proportion="0.36381322" vertical-offset="0" max-vertical-offset="3944">
+            <state line="11" column="53" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="3944">
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
       <file leaf-file-name="part3.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="6" selection-start="7244" selection-end="7244" vertical-scroll-proportion="-46.192307" vertical-offset="1349" max-vertical-offset="2703">
+            <state line="150" column="6" selection-start="7244" selection-end="7244" vertical-scroll-proportion="0.0" vertical-offset="1349" max-vertical-offset="2703">
               <folding />
             </state>
           </provider>
@@ -66,7 +65,7 @@
       <file leaf-file-name="PublicAction.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="0" selection-start="7991" selection-end="7991" vertical-scroll-proportion="-24.923077" vertical-offset="3092" max-vertical-offset="3842">
+            <state line="220" column="0" selection-start="7991" selection-end="7991" vertical-scroll-proportion="0.0" vertical-offset="3092" max-vertical-offset="3842">
               <folding />
             </state>
           </provider>
@@ -415,10 +414,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="vcs.Subversion" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../windows-christmas" />
     <property name="FullScreen" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -818,7 +817,11 @@
       <created>1387245510386</created>
       <updated>1387245510386</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="更新 JS 方法">
+      <created>1387266162040</created>
+      <updated>1387266162040</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -846,11 +849,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24875621" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32462686" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3233831" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27403155" sideWeight="0.75124377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27833572" sideWeight="0.75124377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -882,9 +885,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23242468" sideWeight="0.74189526" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -894,7 +897,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="完成第二阶段页面制作" />
     <MESSAGE value="更改下拉 BUG" />
     <MESSAGE value="更改预支文字" />
     <MESSAGE value="更新页面" />
@@ -919,7 +921,8 @@
     <MESSAGE value="更新请求方法2" />
     <MESSAGE value="完善自动日志记录" />
     <MESSAGE value="更改必应图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改必应图片" />
+    <MESSAGE value="更新 JS 方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 JS 方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1008,21 +1011,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="0" selection-start="7991" selection-end="7991" vertical-scroll-proportion="-24.923077" vertical-offset="3092" max-vertical-offset="3842">
+        <state line="220" column="0" selection-start="7991" selection-end="7991" vertical-scroll-proportion="0.0" vertical-offset="3092" max-vertical-offset="3842">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="6" selection-start="7244" selection-end="7244" vertical-scroll-proportion="-46.192307" vertical-offset="1349" max-vertical-offset="2703">
+        <state line="150" column="6" selection-start="7244" selection-end="7244" vertical-scroll-proportion="0.0" vertical-offset="1349" max-vertical-offset="2703">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="53" selection-start="908" selection-end="908" vertical-scroll-proportion="0.36381322" vertical-offset="0" max-vertical-offset="3944">
+        <state line="11" column="53" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="3944">
           <folding />
         </state>
       </provider>
