@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>8不够？多1点！</title>
+    <link href="__PUBLIC__/Index4/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=321965248" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/appClient.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/client.js" type="text/javascript"></script>
+    <script type="text/javascript" src="__PUBLIC__/Index4/javascript/jquery.js"></script>
+<script type="text/javascript">
+$(function() {
+	$("#wbShow").click(function(event) 
+    {
+		//取消事件冒泡
+        event.stopPropagation();
+	
+		if( $("#wb").hasClass("wbhide") ) 
+		{
+			$("#wb").removeClass("wbhide"); 
+			$("#wb").animate({height:'476px'},[1000]);
+		}
+		else
+		{
+			$("#wb").animate({height:'0px'},[1000]);
+			$("#wb").addClass("wbhide"); 
+		}
+        
+    }); 
+	
+	$("document").bind("click", function(){
+			$("#wb").animate({height:'0px'},[1000]);
+             $("#wb").addClass("wbhide"); 
+            });
+    $("#wb").bind('mouseover', function(){
+                //alert("鼠标移上");
+             $(document).unbind("click");
+            });
+    $("#wb").bind('mouseout', function(){
+              // alert("鼠标移除");
+            $(document).bind("click", function(){
+				$("#wb").animate({height:'0px'},[1000]);
+                $("#wb").addClass("wbhide"); 
+               });
+           });
+	
+	
+	/*8按钮聚光灯效果*/
+	$(".floorMain").find("a").each(function() {
+		$(this).hover(function() {
+			$(this).siblings().find(".mask").stop();
+			$(this).siblings().find(".mask").fadeTo("fast",0.3);
+		},
+		function() {
+			$(this).siblings().find(".mask").stop();
+			$(this).siblings().find(".mask").fadeTo("fast",0);
+		});
+	});
+
+})
+
+</script>
+</head>
+<body>
+<div class="contain">
+	<div class="header">
+    <a href="#"><img src="__PUBLIC__/Index4/images/logo.jpg" width="152" height="34" border="0" /></a>
+    </div>
+    <div class="banner">
+    	<div class="bannerleft"></div>
+        <div class="bannerright"></div>
+    </div>
+
+    <div class="huatibox">
+    	<div class="ht_top"></div>
+        <div class="ht_mid">
+        	<div class="ht_m1"></div>
+            <div class="ht_m2" id="ht_m2">
+            	<ul class="tab">
+                	<li><a href="#" class="nav1"></a></li>
+                    <li><a href="__URL__/part5" class="nav2"></a></li>
+                </ul>
+				<div class="clear10"></div>
+				<div class="jiangpin">
+                    <P>感谢所有参与Windows系统话题征集的朋友，最终话题终于出炉了！</P>
+                    <P>一等奖：最终被点赞最多的4个话题的提供者，将获得微软限量版精致鼠标</P>
+                    <P>二等奖：最终被点赞排名第5-10名的6个话题的提供者，将获得微软精致双肩背包</P>
+                    <P>三等奖：随机抽取150名参与话题征集的网友，送上微软限量版精美冰箱贴</P>
+                </div>
+                <div class="clear15"></div>
+                <div class="eightitle"></div>
+                <div class="clear15"></div>
+				<ul class="huati">
+                	<li class="c1">
+                        <div>来自@熊猫巴士的8话题之#xxxxxxxxxxx#</div>
+                        <a href="#" class="icon_z">15</a>
+                    </li>
+                    <li class="c2">
+                        <div>来自@熊猫巴士的8话题之#xxxxxxxxxxx#</div>
+                        <a href="#" class="icon_z">15</a>
+                    </li>
+                    <li class="c3">
+                        <div>来自@熊猫巴士的8话题之#xxxxxxxxxxx#</div>
+                        <a href="#" class="icon_z">15</a>
+                    </li>
+                    <li class="c4">
+                        <div>来自@熊猫巴士的8话题之#xxxxxxxxxxx#</div>
+                        <a href="#" class="icon_z">15</a>
+                    </li>
+                </ul>
+                <div class="clear10"></div>
+                <div class="mingdan">
+                	<div class="md_title"></div>
+                    <ul class="md_con">
+                    	<li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                        <div class="clear"></div>
+                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <div class="clear10"></div>
+            </div>
+            <div class="ht_m3">
+            	<div class="biying"></div>
+                <div class="search"><a href="javascript:void(0);" id="wbShow"><img src="__PUBLIC__/Index4/images/search.jpg"/></a></div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" appkey="321965248" topic="8%E4%B8%8D%E5%A4%9F%20%E5%A4%9A1%E7%82%B9|8%E4%B8%8D%E5%A4%9F%20%E5%A4%9A1%E7%82%B9" width="auto" height="502" member="n" refer="y" ></wb:livestream></div>
+            </div>
+            <div class="ht_m4"></div>
+        </div>
+
+        <div class="ht_bot"></div>
+    </div>
+
+    <div class="ninebox">
+        <div class="floorMain">
+            <a href="http://www.samsung.com/cn/consumer/computers-office/ultra-mobile-pc/ativ-tab/XE300TZC-K01CN?subsubtype=ativ-tab-3" target="_blank" class="item1"><img src="__PUBLIC__/Index3/images/n1.jpg"><div class="mask"></div></a>
+            <a href="http://www.samsung.com/cn/consumer/computers-office/ultra-mobile-pc/ativ-tab/XE300TZC-K01CN?subsubtype=ativ-tab-3" target="_blank" href="#" class="item2"><img src="__PUBLIC__/Index3/images/n2.jpg"><div class="mask"></div></a>
+            <a target="_blank" href="http://www.sonystyle.com.cn/products/vaio/t111.htm" class="item3"><img src="__PUBLIC__/Index3/images/n3.jpg"><div class="mask"></div></a>
+            <a target="_blank" href="http://www.sonystyle.com.cn/products/vaio/t111.htm" class="item4"><img src="__PUBLIC__/Index3/images/n4.jpg"><div class="mask"></div></a>
+            <a target="_blank" href="http://www.asus.com.cn/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100/" class="item5"><img src="__PUBLIC__/Index3/images/n5.jpg"><div class="mask"></div></a>
+            <a target="_blank" href="http://www.asus.com.cn/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100/" class="item6"><img src="__PUBLIC__/Index3/images/n6.jpg"><div class="mask"></div></a>
+            <a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2100021256" class="item7"><img src="__PUBLIC__/Index3/images/n7.jpg"><div class="mask"></div></a>
+            <a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2100021256" class="item8"><img src="__PUBLIC__/Index3/images/n8.jpg"><div class="mask"></div></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

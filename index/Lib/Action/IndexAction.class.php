@@ -35,6 +35,19 @@ class IndexAction extends Action {
         $this -> display();
     }
 
+    public function part4(){
+        $this -> display();
+    }
+
+    public function part5(){
+        $id = !empty($_GET['tid']) ? $this -> _get('tid', 'intval') : 1;
+        $result = R('Topic2/topic',array($id),'Widget');
+        $this -> assign('result', $result);
+        $list = R('Topic2/topic',array($id, true),'Widget');
+        $this -> assign('list', $list);
+        $this -> display();
+    }
+
     public function addzannum(){
         $WeiboShareList = M('WeiboShareList');
         $WeiboShareList -> where(array('weiboId' => $this -> _get('id'))) -> setInc('zannum');
