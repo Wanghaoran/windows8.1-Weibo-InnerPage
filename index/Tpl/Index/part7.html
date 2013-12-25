@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>8不够？多1点！</title>
+<link href="__PUBLIC__/Index3/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=321965248" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/appClient.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/client.js" type="text/javascript"></script>
+<script type="text/javascript" src="__PUBLIC__/Index3/javascript/jquery.js"></script>
+<script type="text/javascript">
+$(function() {
+	$("#wbShow").click(function(event) 
+    {
+		//取消事件冒泡
+        event.stopPropagation();
+	
+		if( $("#wb").hasClass("wbhide") ) 
+		{
+			$("#wb").removeClass("wbhide"); 
+			$("#wb").animate({height:'476px'},[1000]);
+		}
+		else
+		{
+			$("#wb").animate({height:'0px'},[1000]);
+			$("#wb").addClass("wbhide"); 
+		}
+        
+    }); 
+	
+	$("document").bind("click", function(){
+			$("#wb").animate({height:'0px'},[1000]);
+             $("#wb").addClass("wbhide"); 
+            });
+    $("#wb").bind('mouseover', function(){
+                //alert("鼠标移上");
+             $(document).unbind("click");
+            });
+    $("#wb").bind('mouseout', function(){
+              // alert("鼠标移除");
+            $(document).bind("click", function(){
+				$("#wb").animate({height:'0px'},[1000]);
+                $("#wb").addClass("wbhide"); 
+               });
+           });
+	
+	/*8按钮聚光灯效果*/
+	$(".floorMain").find("a").each(function() {
+		$(this).hover(function() {
+			$(this).siblings().find(".mask").stop();
+			$(this).siblings().find(".mask").fadeTo("fast",0.3);
+		},
+		function() {
+			$(this).siblings().find(".mask").stop();
+			$(this).siblings().find(".mask").fadeTo("fast",0);
+		});
+	});
+})
+</script>
+</head>
+<body>
+<div class="contain">
+	<div class="header">
+    <a href="#"><img src="__PUBLIC__/Index3/images/logo.jpg" width="152" height="34" border="0" /></a>
+    </div>
+    <div class="banner">
+    	<div class="bannerleft"></div>
+        <div class="bannerright"></div>
+    </div>
+    <a name="windows"></a>
+
+    <div class="huatibox">
+    	<div class="ht_top"></div>
+        <div class="ht_mid">
+        	<div class="ht_m1"></div>
+
+            <div class="ht_m2 ht_m21">
+            	<ul class="tab">
+                	<li><a href="__URL__/part6" class="nav3"></a></li>
+                    <li><a href="#" class="nav4"></a></li>
+                </ul>
+				<div class="clear"></div>
+
+            	<div class="toutiao">
+                	<dl>
+                    	<dt>8话题之<-{$result.title}-></dt>
+                        <dd class="d_left">
+                        	<a href="http://weibo.com/u/<-{$result.uid}->" target="_blank"><img src="<-{$result.host_image}->" /></a>
+                            <div><span class="fr"><-{$result.host_name}-></span><span class="fl">主讲人</span></div>
+                        </dd>
+                        <dd class="d_right">
+                            <-{$result.content}->
+                        </dd>
+                    </dl> <div class="clear"></div>
+                </div>
+
+                <div class="discuss">
+                	<dl>
+                    	<dt>
+                        	1点点评
+                        </dt>
+                        <volist name="result.comment" id="rc">
+                            <dd>
+                                <a href="http://weibo.com/u/<-{$rc.uid}->" target="_blank"><img src="<-{$rc.user_image}->" /></a>
+                                <div>
+                                    <h2><span class="yellow-v"><-{$rc.user_name}-></span>：</h2>
+                                    <p><-{$rc.content}-></p>
+                                </div>
+                            </dd>
+                        </volist>
+
+                        <div class="clear"></div>
+                    </dl> 
+                </div>
+               
+                <div class="btn_ht">
+                	<ul>
+                        <volist name="list" id="l">
+                            <li class="<-{$l.color}->"><a href="__ACTION__/tid/<-{$key}->#windows">8话题之<-{$l.title}-></a></li>
+                        </volist>
+                    </ul>
+                </div>
+            </div>
+            <div class="ht_m3">
+            	<div class="biying"></div>
+                <div class="search"><a href="javascript:void(0);" id="wbShow"><img src="__PUBLIC__/Index3/images/search.jpg"/></a></div>
+                <div class="wbclass wbhide" id="wb"><wb:livestream skin="silver" appkey="321965248" topic="8%E4%B8%8D%E5%A4%9F%20%E5%A4%9A1%E7%82%B9|8%E4%B8%8D%E5%A4%9F%20%E5%A4%9A1%E7%82%B9" width="auto" height="502" member="n" refer="y" ></wb:livestream></div>
+            </div>
+            <div class="ht_m4"></div>
+        </div>
+
+        <div class="ht_bot"></div>
+    </div>
+
+    <div class="ninebox">
+           <div class="floorMain">
+                <a href="http://www.samsung.com/cn/consumer/computers-office/ultra-mobile-pc/ativ-tab/XE300TZC-K01CN?subsubtype=ativ-tab-3" target="_blank" class="item1"><img src="__PUBLIC__/Index3/images/n1.jpg"><div class="mask"></div></a>
+                <a href="http://www.samsung.com/cn/consumer/computers-office/ultra-mobile-pc/ativ-tab/XE300TZC-K01CN?subsubtype=ativ-tab-3" target="_blank" href="#" class="item2"><img src="__PUBLIC__/Index3/images/n2.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://www.sonystyle.com.cn/products/vaio/t111.htm" class="item3"><img src="__PUBLIC__/Index3/images/n3.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://www.sonystyle.com.cn/products/vaio/t111.htm" class="item4"><img src="__PUBLIC__/Index3/images/n4.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://www.asus.com.cn/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100/" class="item5"><img src="__PUBLIC__/Index3/images/n5.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://www.asus.com.cn/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100/" class="item6"><img src="__PUBLIC__/Index3/images/n6.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2100021256" class="item7"><img src="__PUBLIC__/Index3/images/n7.jpg"><div class="mask"></div></a>
+                <a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2100021256" class="item8"><img src="__PUBLIC__/Index3/images/n8.jpg"><div class="mask"></div></a>
+          </div>
+    </div>
+</div>
+<div style="display: none;">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5763296'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s17.cnzz.com/stat.php%3Fid%3D5763296' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>
