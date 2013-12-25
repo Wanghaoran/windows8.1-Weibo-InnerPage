@@ -9,7 +9,8 @@
     <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/appClient.js" type="text/javascript" charset="utf-8"></script>
     <script src="http://js.t.sinajs.cn/t4/enterprise/js/public/appframe/client.js" type="text/javascript"></script>
     <script type="text/javascript" src="__PUBLIC__/Index4/javascript/jquery.js"></script>
-<script type="text/javascript">
+    <script src="__PUBLIC__/Index4/javascript/MSClass.js" type="text/javascript"></script>
+    <script type="text/javascript">
 $(function() {
 	$("#wbShow").click(function(event) 
     {
@@ -112,18 +113,47 @@ $(function() {
                 <div class="clear10"></div>
                 <div class="mingdan">
                 	<div class="md_title"></div>
-                    <ul class="md_con">
-                    	<li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
-                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
-                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
-                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
-                        <div class="clear"></div>
-                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
-                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
-                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
-                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
-                        <div class="clear"></div>
-                    </ul>
+
+                    <div id="MarqueeDiv" style="width:420px; height:80px;overflow:hidden;">
+                        <table width="420" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                                <td height="40" align="center" valign="middle">
+                                    <ul class="md_con">
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="40" align="center" valign="middle">
+                                    <ul class="md_con">
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="40" align="center" valign="middle">
+                                    <ul class="md_con">
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                        <li><a href="#"><img src="__UPLOAD__/img_w2.jpg" /><div>暖小团</div></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <script type="text/javascript">
+                        /*********向上连续滚动及鼠标拖动***************/
+                        new Marquee("MarqueeDiv",0,1,420,80,30,0,0)
+                    </script>
+
+
                 </div>
                 <div class="clear10"></div>
             </div>

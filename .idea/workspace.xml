@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/bannerleft.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/bannerright.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/biying.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/btn_byx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/btn_fabu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/btn_mrb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/btn_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/eightbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/guize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/htbg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/htbg21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/htbg22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/htbg23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/htbg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/htimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/htimg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/icon_row.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/icon_z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/img_user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/mxtext1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/mxtext2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/n1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/n2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/n3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/n4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/n5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/n6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/n7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/n8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/ninebg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/playbg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/playbg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/praise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/search.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/second.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/wybyx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/yellow-v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/images/复件 playbg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/javascript/MSClass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/javascript/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Tpl/Index/part4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Tpl/Index/part5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index4/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" afterPath="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index3/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index3/images/htbg22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index4/javascript/MSClass.js" afterPath="$PROJECT_DIR$/Public/Index4/javascript/MSClass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part4.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -73,7 +31,7 @@
       <file leaf-file-name="PhaseoneAction.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="9" selection-start="3190" selection-end="3190" vertical-scroll-proportion="-44.46154" vertical-offset="187" max-vertical-offset="1768">
+            <state line="79" column="9" selection-start="3190" selection-end="3190" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1768">
               <folding />
             </state>
           </provider>
@@ -82,7 +40,7 @@
       <file leaf-file-name="IndexAction.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="27" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-16.538462" vertical-offset="369" max-vertical-offset="1054">
+            <state line="47" column="27" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -91,7 +49,7 @@
       <file leaf-file-name="part5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="33" selection-start="2625" selection-end="2638" vertical-scroll-proportion="-9.807693" vertical-offset="1088" max-vertical-offset="2703">
+            <state line="79" column="33" selection-start="2625" selection-end="2638" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2703">
               <folding />
             </state>
           </provider>
@@ -100,7 +58,7 @@
       <file leaf-file-name="part3.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="4" selection-start="5133" selection-end="6876" vertical-scroll-proportion="-6.5384617" vertical-offset="2125" max-vertical-offset="2703">
+            <state line="135" column="4" selection-start="5133" selection-end="6876" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2703">
               <folding />
             </state>
           </provider>
@@ -109,8 +67,10 @@
       <file leaf-file-name="part4.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="46" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.49514562" vertical-offset="1122" max-vertical-offset="2737">
-              <folding />
+            <state line="154" column="0" selection-start="6887" selection-end="6887" vertical-scroll-proportion="1.0252918" vertical-offset="2091" max-vertical-offset="3247">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#6;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,6 +189,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -365,14 +326,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="vcs.Subversion" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../intel_china" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../work" />
     <property name="FullScreen" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -800,7 +760,11 @@
       <created>1387784927501</created>
       <updated>1387784927501</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="完成第三阶段制作">
+      <created>1387910110666</created>
+      <updated>1387910110666</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -827,12 +791,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24751244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32044888" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2468828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31965175" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16140603" sideWeight="0.75248754" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16571018" sideWeight="0.7531172" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -876,7 +840,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更改问题" />
     <MESSAGE value="样式改回来了又" />
     <MESSAGE value="再次向胜利迈进" />
     <MESSAGE value="22" />
@@ -901,7 +864,8 @@
     <MESSAGE value="更改 必应 图片" />
     <MESSAGE value="更改 必应 图片2" />
     <MESSAGE value="改变数量" />
-    <option name="LAST_COMMIT_MESSAGE" value="改变数量" />
+    <MESSAGE value="完成第三阶段制作" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成第三阶段制作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,23 +885,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="94" selection-start="807" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1309">
-          <folding />
-        </state>
+        <state line="22" column="94" selection-start="807" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1309" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Tpl/Phaseone/editshare.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="61" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="11" column="61" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4182">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4182" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index.html">
@@ -963,7 +921,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="9" selection-start="3190" selection-end="3190" vertical-scroll-proportion="-44.46154" vertical-offset="187" max-vertical-offset="1768">
+        <state line="79" column="9" selection-start="3190" selection-end="3190" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
@@ -989,29 +947,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="4" selection-start="5133" selection-end="6876" vertical-scroll-proportion="-6.5384617" vertical-offset="2125" max-vertical-offset="2703">
+        <state line="135" column="4" selection-start="5133" selection-end="6876" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2703">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-16.538462" vertical-offset="369" max-vertical-offset="1054">
+        <state line="47" column="27" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="33" selection-start="2625" selection-end="2638" vertical-scroll-proportion="-9.807693" vertical-offset="1088" max-vertical-offset="2703">
+        <state line="79" column="33" selection-start="2625" selection-end="2638" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2703">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="46" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.49514562" vertical-offset="1122" max-vertical-offset="2737">
-          <folding />
+        <state line="154" column="0" selection-start="6887" selection-end="6887" vertical-scroll-proportion="1.0252918" vertical-offset="2091" max-vertical-offset="3247">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#6;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
