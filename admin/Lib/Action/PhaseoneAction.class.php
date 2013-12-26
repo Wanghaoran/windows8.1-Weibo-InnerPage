@@ -4,6 +4,9 @@ class PhaseoneAction extends CommonAction{
 
     public function topic(){
         $where = array();
+        if(!empty($_POST['uid'])){
+            $where['uid'] = $_POST['uid'];
+        }
         R('Public/select', array('WeiboShareList', 'weiboId,uid,content,created_at,user_screen_name,ischeck,reposts_count,isshow', $where, 'created_at DESC'));
         $this -> display();
     }

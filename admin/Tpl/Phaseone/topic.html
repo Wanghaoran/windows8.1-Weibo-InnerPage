@@ -1,20 +1,26 @@
 <form id="pagerForm" action="__ACTION__" method="post">
   <input type="hidden" name="pageNum" value="<-{$currentPage}->"/>
+  <input type="hidden" name="uid" value="<-{$Think.post.uid}->"/>
 </form>
 
 <div class="pageHeader">
-	<form rel="pagerForm" onsubmit="return navTabSearch(this);" action="__ACTION__" method="post">
-	<div class="searchBar">
-		<h1 style=height:100%;font-size:1.3em;">注:系统每隔20分钟会自动获取相关微博数据,管理员也可以手动点击下方"获取数据"按钮</h1>
-	
-		<div class="subBar">
-			<ul>
-				<h2 style="color:red;margin-right:100px;">自动获取功能尚未开启，如需要开启，请在QQ上联系我</h2>
-			</ul>
-		</div>
-	</div>
-	</form>
+    <form rel="pagerForm" onsubmit="return navTabSearch(this);" action="__ACTION__" method="post">
+        <div class="searchBar">
+            <ul class="searchContent">
+                <li style="width:330px;">
+                    <label>uid：</label>
+                    <input type="text" name="uid" />
+                </li>
+            </ul>
+            <div class="subBar">
+                <ul>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+                </ul>
+            </div>
+        </div>
+    </form>
 </div>
+
 
 <div class="pageContent">
 	<div class="panelBar">

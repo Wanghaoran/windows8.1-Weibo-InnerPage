@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index3/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index3/images/htbg22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" afterPath="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html" afterPath="$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -26,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PhaseoneAction.class.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PhaseoneAction.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="9" selection-start="3190" selection-end="3190" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1768">
+            <state line="7" column="39" selection-start="180" selection-end="180" vertical-scroll-proportion="0.22928709" vertical-offset="0" max-vertical-offset="1819">
               <folding />
             </state>
           </provider>
@@ -44,11 +45,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part7.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="part7.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="10" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.2620424" vertical-offset="1037" max-vertical-offset="2703">
+            <state line="79" column="6" selection-start="2601" selection-end="2601" vertical-scroll-proportion="-11.769231" vertical-offset="1037" max-vertical-offset="2703">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topic.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="24" selection-start="222" selection-end="222" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1411">
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +68,7 @@
       <file leaf-file-name="part6.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="33" selection-start="2676" selection-end="2689" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="2754">
+            <state line="81" column="33" selection-start="2676" selection-end="2689" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2754">
               <folding />
             </state>
           </provider>
@@ -107,15 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Topic2Widget.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Lib/Widget/Topic2Widget.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -142,8 +145,6 @@
         <option value="$PROJECT_DIR$/index/Tpl/Index/part3.html" />
         <option value="$PROJECT_DIR$/index/Conf/config.php" />
         <option value="$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php" />
-        <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html" />
-        <option value="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" />
         <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/editshare.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part5.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part4.html" />
@@ -151,6 +152,8 @@
         <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part6.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part7.html" />
+        <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html" />
+        <option value="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" />
       </list>
     </option>
   </component>
@@ -249,15 +252,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Widget" />
+              <option name="myItemId" value="Tpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,7 +270,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phaseone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windows81" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windows81" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windows81" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windows81" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -289,7 +324,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -298,46 +333,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zh-cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,7 +346,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../windows-phone-exam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../intel_china" />
     <property name="FullScreen" value="true" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -815,7 +810,11 @@
       <created>1387985074157</created>
       <updated>1387985074157</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="更改必应图片">
+      <created>1388022586686</created>
+      <updated>1388022586686</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -843,11 +842,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24253732" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31637716" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3146766" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17718795" sideWeight="0.7574627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18292683" sideWeight="0.7574627" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -905,7 +904,6 @@
     <MESSAGE value="更新请求方法2" />
     <MESSAGE value="完善自动日志记录" />
     <MESSAGE value="更新 JS 方法" />
-    <MESSAGE value="更改必应图片" />
     <MESSAGE value="增加后台 编辑 点赞量的 功能" />
     <MESSAGE value="更改 必应 图片" />
     <MESSAGE value="更改 必应 图片2" />
@@ -916,7 +914,8 @@
     <MESSAGE value="更改页面2" />
     <MESSAGE value="活动结束" />
     <MESSAGE value="完成第四阶段页面制作" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成第四阶段页面制作" />
+    <MESSAGE value="更改必应图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改必应图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,11 +923,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/Tpl/Phaseone/editshare.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="61" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="476" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4182" />
@@ -947,13 +941,6 @@
     <entry file="file://$PROJECT_DIR$/admin/Lib/Action/IndexAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="27" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="9" selection-start="3190" selection-end="3190" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1768">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Lib/Widget/Topic2Widget.class.php">
@@ -1019,7 +1006,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="10" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.2620424" vertical-offset="1037" max-vertical-offset="2703">
+        <state line="79" column="6" selection-start="2601" selection-end="2601" vertical-scroll-proportion="-11.769231" vertical-offset="1037" max-vertical-offset="2703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="222" selection-end="222" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1411">
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="39" selection-start="180" selection-end="180" vertical-scroll-proportion="0.22928709" vertical-offset="0" max-vertical-offset="1819">
           <folding />
         </state>
       </provider>
