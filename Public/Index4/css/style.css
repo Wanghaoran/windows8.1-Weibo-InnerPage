@@ -185,7 +185,7 @@ ul.squ2{ width:60px;}
 .eightitle{ width:295px; height:18px; background:url(../images/eightbg.png) no-repeat; margin:0 0 0 15px;}
 .huati{ width:440px; margin:0 0 0 10px;}
 .huati li{ float:left; width:105px; height:120px; margin-left:5px;}
-.huati li div{ color:#fff; line-height:20px; padding:5px; text-align:left; height:80px; font-size:14px;}
+.huati li div{ color:#fff; line-height:20px; padding:5px; text-align:left; font-size:14px;}
 .huati li a.icon_z{ background:url(../images/icon_z.png) left center no-repeat; padding-left:20px; color:#fff; font-size:18px; font-weight:600; float:right; margin-right:10px; display:inline-block;}
 .huati li.c1{ background:#d90073;}
 .huati li.c2{ background:#f1a30b;}
@@ -198,7 +198,7 @@ ul.squ2{ width:60px;}
 .md_con li.second{ width:420px; height:12px; background:url(../images/djtext.png) top left no-repeat; margin:8px 0 0 0;}
 .md_con li.third{ width:420px; height:12px; background:url(../images/djtext.png) bottom left no-repeat; margin:8px 0 0 0;}
 .md_con li a img{ float:left; width:30px; height:30px; border:0;}
-.md_con li a div{ float:left; margin-left:10px; height:30px; line-height:30px; color:#fff; text-decoration:none; font-size:14px; font-weight:400;}
+.md_con li a div{ float:left; margin-left:3px;overflow:hidden;width: 65px;text-align: left; height:30px; line-height:30px; color:#fff; text-decoration:none; font-size:12px; font-weight:400;}
 
 .mxtitle{ width:114px; height:18px; background:url(../images/mxtext2.png) no-repeat; margin:0 0 0 15px;}
 .playlist{ width:440px; margin:0 0 0 10px;}
