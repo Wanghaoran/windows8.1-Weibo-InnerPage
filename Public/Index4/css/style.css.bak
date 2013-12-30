@@ -191,8 +191,12 @@ ul.squ2{ width:60px;}
 .huati li div.tishi dt{ position:absolute; bottom:-10px; left:60px;border-left:10px solid transparent; border-right:10px solid transparent; border-top:10px solid #fff; width:0; height:0;}
 .huati li div.ts2 dt{left:120px;}
 .huati li div.tishi dd{ color:#333;font-size:12px; text-align:left;}
-.huati li div.tishi dd p{line-height:15px; margin-top:5px; text-indent:0; margin:0; padding:0;}
-.huati li div.tishi dd p a{ text-decoration:none; padding:0; margin:0;  text-indent:0;}
+.huati li div.tishi dd a img{ width:40px; height:40px; margin:0 5px 0 0; border:0; float:left;}
+.huati li div.tishi dd h2{float:left;  height:40px; line-height:20px; width:150px; overflow:hidden; font-size:14px;}
+.huati li div.tishi dd h2 a{ text-decoration:none;}
+.huati li div.tishi dd h2 a:hover{#ff9900;}
+.huati li div.tishi dd p{float:left; line-height:15px;width:200px; margin-top:5px;}
+.huati li div.tishi dd p a{ text-decoration:none;}
 .huati li div.tishi dd p a:hover{#ff9900;}
 .huati li:hover div.tishi{ display:block;}
 .huati li a.icon_z{ background:url(../images/icon_z.png) left center no-repeat; padding-left:20px; color:#fff; font-size:18px; font-weight:600; float:right; margin-right:10px; display:inline-block;}
