@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index3/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index3/images/htbg22.jpg" />
+    <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="更改文字">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index4/images/htbg22.jpg" afterPath="$PROJECT_DIR$/Public/Index4/images/htbg22.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part4.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index4/css/style.css" afterPath="$PROJECT_DIR$/Public/Index4/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Conf/config.php" afterPath="$PROJECT_DIR$/index/Conf/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -83,16 +81,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part4.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="part4.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="56" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.7831094" vertical-offset="1054" max-vertical-offset="10931">
+            <state line="147" column="70" selection-start="6462" selection-end="6462" vertical-scroll-proportion="-0.0" vertical-offset="2499" max-vertical-offset="10931">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#1;n#li#0;n#ul#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#li#1;n#ul#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#li#2;n#ul#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#li#3;n#ul#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#6;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -102,9 +99,9 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/Index4/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="42" selection-start="13414" selection-end="13414" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="4046">
+            <state line="196" column="42" selection-start="13154" selection-end="13154" vertical-scroll-proportion="0.0" vertical-offset="3094" max-vertical-offset="3978">
               <folding>
-                <marker date="1388387957000" expanded="true" signature="936:960" placeholder="{...}" />
+                <marker date="1388401215000" expanded="true" signature="936:960" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Conf/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+            <state line="3" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0953271" vertical-offset="0" max-vertical-offset="535">
               <folding />
             </state>
           </provider>
@@ -151,7 +148,6 @@
         <option value="$PROJECT_DIR$/admin/Tpl/Public/menu.html" />
         <option value="$PROJECT_DIR$/Public/Index3/css/style.css" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part3.html" />
-        <option value="$PROJECT_DIR$/index/Conf/config.php" />
         <option value="$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php" />
         <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/editshare.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part5.html" />
@@ -163,6 +159,7 @@
         <option value="$PROJECT_DIR$/index/Tpl/Index/part6.html" />
         <option value="$PROJECT_DIR$/Public/Index4/css/style.css" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part4.html" />
+        <option value="$PROJECT_DIR$/index/Conf/config.php" />
       </list>
     </option>
   </component>
@@ -315,61 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phaseone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows81" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -387,15 +330,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windows81" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windows81" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,7 +362,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="vcs.Subversion" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ppsuc_punish" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../datangmedia" />
     <property name="FullScreen" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -901,7 +854,23 @@
       <created>1388344786212</created>
       <updated>1388344786212</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="更新页面">
+      <created>1388389345830</created>
+      <updated>1388389345830</updated>
+    </task>
+    <task id="LOCAL-00109" summary="更改文字">
+      <created>1388396865380</created>
+      <updated>1388396865380</updated>
+    </task>
+    <task id="LOCAL-00110" summary="更改兼容性">
+      <created>1388401441386</created>
+      <updated>1388401441386</updated>
+    </task>
+    <task id="LOCAL-00111" summary="更改文字">
+      <created>1388401453430</created>
+      <updated>1388401453430</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -928,12 +897,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24004975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3097015" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23880596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3084577" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19727403" sideWeight="0.7599502" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20301291" sideWeight="0.76119405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -977,10 +946,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更新点赞功能" />
-    <MESSAGE value="更改样式" />
     <MESSAGE value="增加统计i 代码" />
-    <MESSAGE value="更改文字" />
     <MESSAGE value="第二阶段页面上线" />
     <MESSAGE value="更新请求方法" />
     <MESSAGE value="更新请求方法2" />
@@ -1002,7 +968,10 @@
     <MESSAGE value="更改视频" />
     <MESSAGE value="更新第三阶段" />
     <MESSAGE value="添加统计代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加统计代码" />
+    <MESSAGE value="更新页面" />
+    <MESSAGE value="更改兼容性" />
+    <MESSAGE value="更改文字" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改文字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1038,20 +1007,6 @@
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="4" selection-start="5133" selection-end="6876" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="166" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2703">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php">
@@ -1091,9 +1046,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/Index4/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="42" selection-start="13414" selection-end="13414" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="4046">
+        <state line="196" column="42" selection-start="13154" selection-end="13154" vertical-scroll-proportion="0.0" vertical-offset="3094" max-vertical-offset="3978">
           <folding>
-            <marker date="1388387957000" expanded="true" signature="936:960" placeholder="{...}" />
+            <marker date="1388401215000" expanded="true" signature="936:960" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1105,17 +1060,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="166" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="56" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.7831094" vertical-offset="1054" max-vertical-offset="10931">
+        <state line="147" column="70" selection-start="6462" selection-end="6462" vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="10931">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#li#0;n#ul#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#li#1;n#ul#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#li#2;n#ul#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#li#3;n#ul#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#6;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0953271" vertical-offset="0" max-vertical-offset="535">
+          <folding />
         </state>
       </provider>
     </entry>
