@@ -49,6 +49,14 @@ class IndexAction extends Action {
     }
 
     public function part6(){
+        $arr = array(
+            1 => 'http://player.youku.com/player.php/sid/XNjUzNzI3Nzc2/v.swf',
+            2 => 'http://player.youku.com/player.php/sid/XNjUzMjAyMTIw/v.swf',
+            3 => 'http://player.youku.com/player.php/sid/XNjU2MjczMzA0/v.swf',
+            4 => 'http://player.youku.com/player.php/sid/XNjUzMjcxNjgw/v.swf',
+        );
+        $id = empty($_GET['id']) ? 1 : $_GET['id'];
+        $this -> assign('url', $arr[$id]);
         $this -> display();
     }
 

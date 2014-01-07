@@ -216,7 +216,7 @@ ul.squ2{ width:60px;}
 .playlist li a img{ width:105px; height:120px; border:0;}
 .playlist li a div{ position:absolute; top:0; left:0; width:105px; height:120px; color:#fff;}
 .playlist li a div img{ width:45px; height:45px; border:0; vertical-align:middle; margin:10px 0 5px 30px;}
-.playlist li a div p{ padding:0 10px; font-size:14px; line-height:20px;}
+.playlist li a div p{ padding:0 10px; font-size:13px; line-height:20px;}
 .playlist li.p1 a div{ background:#d90073;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#64d90073',endColorstr='#64d90073');background:rgba(217,0,115,.6);}
 .playlist li.p2 a div{ background:#f1a30b;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#64f1a30b',endColorstr='#64f1a30b');background:rgba(241,163,110,.6);}
 .playlist li.p3 a div{ background:#a4c400;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#64a4c400',endColorstr='#64a4c400');background:rgba(164,196,0,.6);}
