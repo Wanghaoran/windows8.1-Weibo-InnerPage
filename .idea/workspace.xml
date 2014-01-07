@@ -2,8 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4564a123-b693-4a1d-bed8-61812803ea65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index4/css/style.css.bak" afterPath="$PROJECT_DIR$/Public/Index4/css/style.css.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Index4/css/style.css" afterPath="$PROJECT_DIR$/Public/Index4/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/bannerleft.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/bannerright.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/biying.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/btn_byx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/btn_fabu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/btn_mrb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/btn_z.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/djtext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/eightbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/guize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/htbg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/htbg21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/htbg22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/htbg23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/htbg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/htimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/htimg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/icon_row.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/icon_z.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/img_user.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/mxtext1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/mxtext2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/mxtext3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/n1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/n2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/n3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/n4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/n5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/n6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/n7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/n8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/ninebg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/playbg1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/playbg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/praise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/search.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/second.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/wybyx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/yellow-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/images/复件 playbg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/javascript/MSClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/javascript/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/css/style.css.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Index5/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part6.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Tpl/Index/part7.html" afterPath="$PROJECT_DIR$/index/Tpl/Index/part7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windows81.iws" />
@@ -45,22 +91,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html">
+      <file leaf-file-name="part6.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1411">
-              <folding />
+            <state line="144" column="105" selection-start="5613" selection-end="5613" vertical-scroll-proportion="-2.764706" vertical-offset="2307" max-vertical-offset="3043">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part6.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part6.html">
+      <file leaf-file-name="part7.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="34" selection-start="6015" selection-end="6015" vertical-scroll-proportion="4.847909" vertical-offset="0" max-vertical-offset="3043">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="81" column="21" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.612" vertical-offset="1071" max-vertical-offset="2703">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,7 +194,6 @@
         <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/editshare.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part5.html" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part2.html" />
-        <option value="$PROJECT_DIR$/index/Tpl/Index/part7.html" />
         <option value="$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html" />
         <option value="$PROJECT_DIR$/admin/Lib/Action/PhaseoneAction.class.php" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part4.html" />
@@ -156,6 +201,7 @@
         <option value="$PROJECT_DIR$/Public/Index4/css/style.css" />
         <option value="$PROJECT_DIR$/index/Lib/Action/IndexAction.class.php" />
         <option value="$PROJECT_DIR$/index/Tpl/Index/part6.html" />
+        <option value="$PROJECT_DIR$/index/Tpl/Index/part7.html" />
       </list>
     </option>
   </component>
@@ -920,7 +966,11 @@
       <created>1389081360436</created>
       <updated>1389081360436</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="更新页面颜色">
+      <created>1389094994892</created>
+      <updated>1389094994892</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -947,22 +997,22 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23383084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3022388" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23316708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30049875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.76616913" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587063" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.7668329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -996,7 +1046,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="更新请求方法2" />
     <MESSAGE value="完善自动日志记录" />
     <MESSAGE value="更新 JS 方法" />
     <MESSAGE value="增加后台 编辑 点赞量的 功能" />
@@ -1021,7 +1070,8 @@
     <MESSAGE value="更改页面错误" />
     <MESSAGE value="更新第四阶段页面" />
     <MESSAGE value="解决页面兼容性" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决页面兼容性" />
+    <MESSAGE value="更新页面颜色" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新页面颜色" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1052,11 +1102,6 @@
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="4" selection-start="5133" selection-end="6876" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="6" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="2703" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/Tpl/Phaseone/topic.html">
@@ -1126,10 +1171,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="34" selection-start="6015" selection-end="6015" vertical-scroll-proportion="4.847909" vertical-offset="0" max-vertical-offset="3043">
+        <state line="144" column="105" selection-start="5613" selection-end="5613" vertical-scroll-proportion="-2.764706" vertical-offset="2307" max-vertical-offset="3043">
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Tpl/Index/part7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="21" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.612" vertical-offset="1071" max-vertical-offset="2703">
+          <folding />
         </state>
       </provider>
     </entry>
