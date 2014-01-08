@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>管理地址</title>
+</head>
+<body>
+<form action="__ACTION__" method="post">
+    视频一：<input type="text" name="1" value="<-{$arr.1}->" size="60" /><br/>
+    视频二：<input type="text" name="2" value="<-{$arr.2}->" size="60"/><br/>
+    视频三：<input type="text" name="3" value="<-{$arr.3}->" size="60" /><br/>
+    视频四：<input type="text" name="4" value="<-{$arr.4}->" size="60" /><br/>
+    <br/>
+    上线阶段：
+    <eq name="part" value="part4">
+        <input type="radio" name="type" value="part4" checked="checked">第三阶段
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="type" value="part6">第四阶段
+    <else/>
+        <input type="radio" name="type" value="part4">第三阶段
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="type" value="part6" checked="checked">第四阶段
+    </eq>
+    <br/>
+    <br/>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

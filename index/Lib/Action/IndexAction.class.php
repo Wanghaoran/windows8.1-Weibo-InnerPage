@@ -2,12 +2,16 @@
 class IndexAction extends Action {
     public function index(){
 //        $id = !empty($_GET['tid']) ? $this -> _get('tid', 'intval') : 1;
-        $id = 4;
-        $result = R('Topic/topic',array($id),'Widget');
-        $this -> assign('result', $result);
-        $list = R('Topic/topic',array($id, true),'Widget');
-        $this -> assign('list', $list);
-        $this -> display();
+//        $id = 4;
+//        $result = R('Topic/topic',array($id),'Widget');
+//        $this -> assign('result', $result);
+//        $list = R('Topic/topic',array($id, true),'Widget');
+//        $this -> assign('list', $list);
+//        $this -> display();
+        $System = M('System');
+        $part = $System -> find();
+        redirect(PHP_FILE . '/index/' . $part['name']);
+
     }
 
     public function index2(){
@@ -49,12 +53,15 @@ class IndexAction extends Action {
     }
 
     public function part6(){
-        $arr = array(
-            1 => 'http://player.youku.com/player.php/sid/XNjUzNzI3Nzc2/v.swf',
-            2 => 'http://player.youku.com/player.php/sid/XNjUzMjAyMTIw/v.swf',
-            3 => 'http://player.youku.com/player.php/sid/XNjU2MjczMzA0/v.swf',
-            4 => 'http://player.youku.com/player.php/sid/XNjUzMjcxNjgw/v.swf',
-        );
+
+        $Shipin = M('Shipin');
+        $arrs = $Shipin -> select();
+
+        $arr = array();
+        foreach($arrs as $value){
+            $arr[$value['id']] = $value['url'];
+        }
+
         $id = empty($_GET['id']) ? 1 : $_GET['id'];
         $this -> assign('url', $arr[$id]);
         $this -> display();
@@ -74,5 +81,34 @@ class IndexAction extends Action {
         $WeiboShareList -> where(array('weiboId' => $this -> _get('id'))) -> setInc('zannum');
         $arr = $WeiboShareList -> field('zannum') -> where(array('weiboId' => $this -> _get('id'))) -> find();
         echo $arr['zannum'];
+    }
+
+
+    public function admin(){
+        $Shipin = M('Shipin');
+        $System = M('System');
+
+        if(!empty($_POST['1'])){
+            $Shipin -> where('id=1') -> save(array('url' => $_POST['1']));
+            $Shipin -> where('id=2') -> save(array('url' => $_POST['2']));
+            $Shipin -> where('id=3') -> save(array('url' => $_POST['3']));
+            $Shipin -> where('id=4') -> save(array('url' => $_POST['4']));
+
+            $System -> where('id=1') -> save(array('name' => $_POST['type']));
+        }
+
+
+        $arrs = $Shipin -> select();
+        $arr = array();
+        foreach($arrs as $value){
+            $arr[$value['id']] = $value['url'];
+        }
+        $this -> assign('arr', $arr);
+
+        $part = $System -> find();
+        $this -> assign('part', $part['name']);
+
+        $this -> display();
+
     }
 }
